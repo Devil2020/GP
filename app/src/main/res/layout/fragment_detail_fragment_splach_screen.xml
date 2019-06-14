@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/UbuntoColor"
+    android:orientation="vertical"
+    tools:context=".View.SplachScreenFragments.DetailFragmentSplachScreen">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundable_ubunto_sreen"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/hugochatbot"
+            android:scaleType="fitXY"
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Now ,The project idea is a “Technical Support chatbot” for Ubuntu’s users that helps them with Linux commands and the problems that faces them while using this operating system by answering their questions in using the chatbot.
+"           android:fontFamily="sans-serif-thin"
+            android:textSize="20sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/white"
+            />
+    </FrameLayout>
+</LinearLayout>
