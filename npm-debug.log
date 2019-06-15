@@ -1,0 +1,1402 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'i', 'socket.io' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose read json /home/mohammed/Chatbot-Server/package.json
+5 warn package.json server@1.0.0 No README.md file found!
+6 verbose read json /home/mohammed/Chatbot-Server/node_modules/fresh/package.json
+7 verbose read json /home/mohammed/Chatbot-Server/node_modules/parseqs/package.json
+8 verbose read json /home/mohammed/Chatbot-Server/node_modules/send/package.json
+9 verbose read json /home/mohammed/Chatbot-Server/node_modules/engine.io/package.json
+10 verbose read json /home/mohammed/Chatbot-Server/node_modules/accepts/package.json
+11 verbose read json /home/mohammed/Chatbot-Server/node_modules/callsite/package.json
+12 verbose read json /home/mohammed/Chatbot-Server/node_modules/http-errors/package.json
+13 verbose read json /home/mohammed/Chatbot-Server/node_modules/vary/package.json
+14 verbose read json /home/mohammed/Chatbot-Server/node_modules/merge-descriptors/package.json
+15 verbose read json /home/mohammed/Chatbot-Server/node_modules/proxy-addr/package.json
+16 verbose read json /home/mohammed/Chatbot-Server/node_modules/cookie/package.json
+17 verbose read json /home/mohammed/Chatbot-Server/node_modules/escape-html/package.json
+18 verbose read json /home/mohammed/Chatbot-Server/node_modules/arraybuffer.slice/package.json
+19 verbose read json /home/mohammed/Chatbot-Server/node_modules/component-emitter/package.json
+20 verbose read json /home/mohammed/Chatbot-Server/node_modules/ws/package.json
+21 verbose read json /home/mohammed/Chatbot-Server/node_modules/inherits/package.json
+22 verbose read json /home/mohammed/Chatbot-Server/node_modules/serve-static/package.json
+23 verbose read json /home/mohammed/Chatbot-Server/node_modules/content-type/package.json
+24 verbose read json /home/mohammed/Chatbot-Server/node_modules/type-is/package.json
+25 verbose read json /home/mohammed/Chatbot-Server/node_modules/yeast/package.json
+26 verbose read json /home/mohammed/Chatbot-Server/node_modules/engine.io-parser/package.json
+27 verbose read json /home/mohammed/Chatbot-Server/node_modules/depd/package.json
+28 verbose read json /home/mohammed/Chatbot-Server/node_modules/raw-body/package.json
+29 verbose read json /home/mohammed/Chatbot-Server/node_modules/mime-types/package.json
+30 verbose read json /home/mohammed/Chatbot-Server/node_modules/encodeurl/package.json
+31 verbose read json /home/mohammed/Chatbot-Server/node_modules/express/package.json
+32 verbose read json /home/mohammed/Chatbot-Server/node_modules/base64id/package.json
+33 verbose read json /home/mohammed/Chatbot-Server/node_modules/etag/package.json
+34 verbose read json /home/mohammed/Chatbot-Server/node_modules/path-to-regexp/package.json
+35 verbose read json /home/mohammed/Chatbot-Server/node_modules/xmlhttprequest-ssl/package.json
+36 verbose read json /home/mohammed/Chatbot-Server/node_modules/isarray/package.json
+37 verbose read json /home/mohammed/Chatbot-Server/node_modules/forwarded/package.json
+38 verbose read json /home/mohammed/Chatbot-Server/node_modules/to-array/package.json
+39 verbose read json /home/mohammed/Chatbot-Server/node_modules/mime-db/package.json
+40 verbose read json /home/mohammed/Chatbot-Server/node_modules/engine.io-client/package.json
+41 verbose read json /home/mohammed/Chatbot-Server/node_modules/unpipe/package.json
+42 verbose read json /home/mohammed/Chatbot-Server/node_modules/array-flatten/package.json
+43 verbose read json /home/mohammed/Chatbot-Server/node_modules/media-typer/package.json
+44 verbose read json /home/mohammed/Chatbot-Server/node_modules/iconv-lite/package.json
+45 verbose read json /home/mohammed/Chatbot-Server/node_modules/methods/package.json
+46 verbose read json /home/mohammed/Chatbot-Server/node_modules/debug/package.json
+47 verbose read json /home/mohammed/Chatbot-Server/node_modules/ipaddr.js/package.json
+48 verbose read json /home/mohammed/Chatbot-Server/node_modules/parseurl/package.json
+49 verbose read json /home/mohammed/Chatbot-Server/node_modules/component-inherit/package.json
+50 verbose read json /home/mohammed/Chatbot-Server/node_modules/base64-arraybuffer/package.json
+51 verbose read json /home/mohammed/Chatbot-Server/node_modules/bytes/package.json
+52 verbose read json /home/mohammed/Chatbot-Server/node_modules/has-cors/package.json
+53 verbose read json /home/mohammed/Chatbot-Server/node_modules/ee-first/package.json
+54 verbose read json /home/mohammed/Chatbot-Server/node_modules/blob/package.json
+55 verbose read json /home/mohammed/Chatbot-Server/node_modules/async-limiter/package.json
+56 verbose read json /home/mohammed/Chatbot-Server/node_modules/utils-merge/package.json
+57 verbose read json /home/mohammed/Chatbot-Server/node_modules/body-parser/package.json
+58 verbose read json /home/mohammed/Chatbot-Server/node_modules/mime/package.json
+59 verbose read json /home/mohammed/Chatbot-Server/node_modules/object-component/package.json
+60 verbose read json /home/mohammed/Chatbot-Server/node_modules/setprototypeof/package.json
+61 verbose read json /home/mohammed/Chatbot-Server/node_modules/cookie-signature/package.json
+62 verbose read json /home/mohammed/Chatbot-Server/node_modules/destroy/package.json
+63 verbose read json /home/mohammed/Chatbot-Server/node_modules/safe-buffer/package.json
+64 verbose read json /home/mohammed/Chatbot-Server/node_modules/range-parser/package.json
+65 verbose read json /home/mohammed/Chatbot-Server/node_modules/on-finished/package.json
+66 verbose read json /home/mohammed/Chatbot-Server/node_modules/indexof/package.json
+67 verbose read json /home/mohammed/Chatbot-Server/node_modules/backo2/package.json
+68 verbose read json /home/mohammed/Chatbot-Server/node_modules/child_process/package.json
+69 verbose read json /home/mohammed/Chatbot-Server/node_modules/has-binary2/package.json
+70 verbose read json /home/mohammed/Chatbot-Server/node_modules/finalhandler/package.json
+71 verbose read json /home/mohammed/Chatbot-Server/node_modules/qs/package.json
+72 verbose read json /home/mohammed/Chatbot-Server/node_modules/ms/package.json
+73 verbose read json /home/mohammed/Chatbot-Server/node_modules/better-assert/package.json
+74 verbose read json /home/mohammed/Chatbot-Server/node_modules/after/package.json
+75 verbose read json /home/mohammed/Chatbot-Server/node_modules/content-disposition/package.json
+76 verbose read json /home/mohammed/Chatbot-Server/node_modules/parseuri/package.json
+77 verbose read json /home/mohammed/Chatbot-Server/node_modules/negotiator/package.json
+78 verbose read json /home/mohammed/Chatbot-Server/node_modules/statuses/package.json
+79 verbose read json /home/mohammed/Chatbot-Server/node_modules/component-bind/package.json
+80 verbose read json /home/mohammed/Chatbot-Server/node_modules/safer-buffer/package.json
+81 verbose from cache /home/mohammed/Chatbot-Server/package.json
+82 verbose readDependencies using package.json deps
+83 verbose cache add [ 'socket.io@latest', null ]
+84 silly cache add name=undefined spec="socket.io@latest" args=["socket.io@latest",null]
+85 verbose parsed url { pathname: 'socket.io@latest',
+85 verbose parsed url   path: 'socket.io@latest',
+85 verbose parsed url   href: 'socket.io@latest' }
+86 silly cache add name="socket.io" spec="latest" args=["socket.io","latest"]
+87 verbose parsed url { pathname: 'latest', path: 'latest', href: 'latest' }
+88 verbose addNamed [ 'socket.io', 'latest' ]
+89 verbose addNamed [ null, null ]
+90 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+91 verbose lock socket.io@latest /home/mohammed/.npm/d01f6c55-socket-io-latest.lock
+92 info addNameTag [ 'socket.io', 'latest' ]
+93 verbose url raw socket.io
+94 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+95 verbose url resolved https://registry.npmjs.org/socket.io
+96 info trying registry request attempt 1 at 23:26:16
+97 verbose etag "a9cf3caf12aa97184fd5c2c188ac511d"
+98 http GET https://registry.npmjs.org/socket.io
+99 http 304 https://registry.npmjs.org/socket.io
+100 silly registry.get cb [ 304,
+100 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:17 GMT',
+100 silly registry.get     connection: 'keep-alive',
+100 silly registry.get     'set-cookie': [ '__cfduid=d27a1d7a8b40d3f40205da0fa6ef159c21560633977; expires=Sun, 14-Jun-20 21:26:17 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+100 silly registry.get     'cf-cache-status': 'HIT',
+100 silly registry.get     'cache-control': 'max-age=300',
+100 silly registry.get     'cf-ray': '4e779f14cec1d771-MRS',
+100 silly registry.get     etag: '"a9cf3caf12aa97184fd5c2c188ac511d"',
+100 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+100 silly registry.get     'last-modified': 'Wed, 16 Jan 2019 19:39:29 GMT',
+100 silly registry.get     vary: 'accept-encoding, accept',
+100 silly registry.get     'x-amz-meta-rev': '1148-4e08772a310685e4af76910a20ac5462',
+100 silly registry.get     server: 'cloudflare' } ]
+101 verbose etag socket.io from cache
+102 verbose addNamed [ 'socket.io', '2.2.0' ]
+103 verbose addNamed [ '2.2.0', '2.2.0' ]
+104 silly lockFile 32fbc470-socket-io-2-2-0 socket.io@2.2.0
+105 verbose lock socket.io@2.2.0 /home/mohammed/.npm/32fbc470-socket-io-2-2-0.lock
+106 verbose read json /home/mohammed/.npm/socket.io/2.2.0/package/package.json
+107 silly lockFile 32fbc470-socket-io-2-2-0 socket.io@2.2.0
+108 silly lockFile d01f6c55-socket-io-latest socket.io@latest
+109 silly resolved [ { name: 'socket.io',
+109 silly resolved     version: '2.2.0',
+109 silly resolved     description: 'node.js realtime framework server',
+109 silly resolved     keywords:
+109 silly resolved      [ 'realtime',
+109 silly resolved        'framework',
+109 silly resolved        'websocket',
+109 silly resolved        'tcp',
+109 silly resolved        'events',
+109 silly resolved        'socket',
+109 silly resolved        'io' ],
+109 silly resolved     main: './lib/index',
+109 silly resolved     files: [ 'lib/' ],
+109 silly resolved     license: 'MIT',
+109 silly resolved     repository: { type: 'git', url: 'git://github.com/socketio/socket.io' },
+109 silly resolved     scripts: { test: 'nyc mocha --reporter spec --slow 200 --bail --timeout 10000 test/socket.io.js' },
+109 silly resolved     dependencies:
+109 silly resolved      { debug: '~4.1.0',
+109 silly resolved        'engine.io': '~3.3.1',
+109 silly resolved        'has-binary2': '~1.0.2',
+109 silly resolved        'socket.io-adapter': '~1.1.0',
+109 silly resolved        'socket.io-client': '2.2.0',
+109 silly resolved        'socket.io-parser': '~3.3.0' },
+109 silly resolved     devDependencies:
+109 silly resolved      { 'expect.js': '0.3.1',
+109 silly resolved        mocha: '^3.5.3',
+109 silly resolved        nyc: '^11.2.1',
+109 silly resolved        superagent: '^3.8.2',
+109 silly resolved        supertest: '^3.0.0' },
+109 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+109 silly resolved     readme: '\n# socket.io\n\n[![Backers on Open Collective](https://opencollective.com/socketio/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/socketio/sponsors/badge.svg)](#sponsors)\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io.svg?branch=master)](https://travis-ci.org/socketio/socket.io)\n[![Dependency Status](https://david-dm.org/socketio/socket.io.svg)](https://david-dm.org/socketio/socket.io)\n[![devDependency Status](https://david-dm.org/socketio/socket.io/dev-status.svg)](https://david-dm.org/socketio/socket.io#info=devDependencies)\n[![NPM version](https://badge.fury.io/js/socket.io.svg)](https://www.npmjs.com/package/socket.io)\n![Downloads](https://img.shields.io/npm/dm/socket.io.svg?style=flat)\n[![](https://slackin-socketio.now.sh/badge.svg)](https://slackin-socketio.now.sh)\n\n## Features\n\nSocket.IO enables real-time bidirectional event-based communication. It consists of:\n\n- a Node.js server (this repository)\n- a [Javascript client library](https://github.com/socketio/socket.io-client) for the browser (or a Node.js client)\n\nSome implementations in other languages are also available:\n\n- [Java](https://github.com/socketio/socket.io-client-java)\n- [C++](https://github.com/socketio/socket.io-client-cpp)\n- [Swift](https://github.com/socketio/socket.io-client-swift)\n- [Dart](https://github.com/rikulo/socket.io-client-dart)\n\nIts main features are:\n\n#### Reliability\n\nConnections are established even in the presence of:\n  - proxies and load balancers.\n  - personal firewall and antivirus software.\n\nFor this purpose, it relies on [Engine.IO](https://github.com/socketio/engine.io), which first establishes a long-polling connection, then tries to upgrade to better transports that are "tested" on the side, like WebSocket. Please see the [Goals](https://github.com/socketio/engine.io#goals) section for more information.\n\n#### Auto-reconnection support\n\nUnless instructed otherwise a disconnected client will try to reconnect forever, until the server is available again. Please see the available reconnection options [here](https://github.com/socketio/socket.io-client/blob/master/docs/API.md#new-managerurl-options).\n\n#### Disconnection detection\n\nA heartbeat mechanism is implemented at the Engine.IO level, allowing both the server and the client to know when the other one is not responding anymore.\n\nThat functionality is achieved with timers set on both the server and the client, with timeout values (the `pingInterval` and `pingTimeout` parameters) shared during the connection handshake. Those timers require any subsequent client calls to be directed to the same server, hence the `sticky-session` requirement when using multiples nodes.\n\n#### Binary support\n\nAny serializable data structures can be emitted, including:\n\n- [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) and [Blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) in the browser\n- [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer) and [Buffer](https://nodejs.org/api/buffer.html) in Node.js\n\n#### Simple and convenient API\n\nSample code:\n\n```js\nio.on(\'connection\', socket => {\n  socket.emit(\'request\', /* … */); // emit an event to the socket\n  io.emit(\'broadcast\', /* … */); // emit an event to all connected sockets\n  socket.on(\'reply\', () => { /* … */ }); // listen to the event\n});\n```\n\n#### Cross-browser\n\nBrowser support is tested in Saucelabs:\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/socket.svg)](https://saucelabs.com/u/socket)\n\n#### Multiplexing support\n\nIn order to create separation of concerns within your application (for example per module, or based on permissions), Socket.IO allows you to create several `Namespaces`, which will act as separate communication channels but will share the same underlying connection.\n\n#### Room support\n\nWithin each `Namespace`, you can define arbitrary channels, called `Rooms`, that sockets can join and leave. You can then broadcast to any given room, reaching every socket that has joined it.\n\nThis is a useful feature to send notifications to a group of users, or to a given user connected on several devices for example.\n\n\n**Note:** Socket.IO is not a WebSocket implementation. Although Socket.IO indeed uses WebSocket as a transport when possible, it adds some metadata to each packet: the packet type, the namespace and the ack id when a message acknowledgement is needed. That is why a WebSocket client will not be able to successfully connect to a Socket.IO server, and a Socket.IO client will not be able to connect to a WebSocket server (like `ws://echo.websocket.org`) either. Please see the protocol specification [here](https://github.com/socketio/socket.io-protocol).\n\n## Installation\n\n```bash\nnpm install socket.io\n```\n\n## How to use\n\nThe following example attaches socket.io to a plain Node.JS\nHTTP server listening on port `3000`.\n\n```js\nconst server = require(\'http\').createServer();\nconst io = require(\'socket.io\')(server);\nio.on(\'connection\', client => {\n  client.on(\'event\', data => { /* … */ });\n  client.on(\'disconnect\', () => { /* … */ });\n});\nserver.listen(3000);\n```\n\n### Standalone\n\n```js\nconst io = require(\'socket.io\')();\nio.on(\'connection\', client => { ... });\nio.listen(3000);\n```\n\n### In conjunction with Express\n\nStarting with **3.0**, express applications have become request handler\nfunctions that you pass to `http` or `http` `Server` instances. You need\nto pass the `Server` to `socket.io`, and not the express application\nfunction. Also make sure to call `.listen` on the `server`, not the `app`.\n\n```js\nconst app = require(\'express\')();\nconst server = require(\'http\').createServer(app);\nconst io = require(\'socket.io\')(server);\nio.on(\'connection\', () => { /* … */ });\nserver.listen(3000);\n```\n\n### In conjunction with Koa\n\nLike Express.JS, Koa works by exposing an application as a request\nhandler function, but only by calling the `callback` method.\n\n```js\nconst app = require(\'koa\')();\nconst server = require(\'http\').createServer(app.callback());\nconst io = require(\'socket.io\')(server);\nio.on(\'connection\', () => { /* … */ });\nserver.listen(3000);\n```\n\n## Documentation\n\nPlease see the documentation [here](/docs/README.md). Contributions are welcome!\n\n## Debug / logging\n\nSocket.IO is powered by [debug](https://github.com/visionmedia/debug).\nIn order to see all the debug output, run your app with the environment variable\n`DEBUG` including the desired scope.\n\nTo see the output from all of Socket.IO\'s debugging scopes you can use:\n\n```\nDEBUG=socket.io* node myapp\n```\n\n## Testing\n\n```\nnpm test\n```\nThis runs the `gulp` task `test`. By default the test will be run with the source code in `lib` directory.\n\nSet the environmental variable `TEST_VERSION` to `compat` to test the transpiled es5-compat version of the code.\n\nThe `gulp` task `test` will always transpile the source code into es5 and export to `dist` first before running the test.\n\n\n## Backers\n\nSupport us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/socketio#backer)]\n\n<a href="https://opencollective.com/socketio/backer/0/website" target="_blank"><img src="https://opencollective.com/socketio/backer/0/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/1/website" target="_blank"><img src="https://opencollective.com/socketio/backer/1/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/2/website" target="_blank"><img src="https://opencollective.com/socketio/backer/2/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/3/website" target="_blank"><img src="https://opencollective.com/socketio/backer/3/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/4/website" target="_blank"><img src="https://opencollective.com/socketio/backer/4/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/5/website" target="_blank"><img src="https://opencollective.com/socketio/backer/5/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/6/website" target="_blank"><img src="https://opencollective.com/socketio/backer/6/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/7/website" target="_blank"><img src="https://opencollective.com/socketio/backer/7/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/8/website" target="_blank"><img src="https://opencollective.com/socketio/backer/8/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/9/website" target="_blank"><img src="https://opencollective.com/socketio/backer/9/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/10/website" target="_blank"><img src="https://opencollective.com/socketio/backer/10/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/11/website" target="_blank"><img src="https://opencollective.com/socketio/backer/11/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/12/website" target="_blank"><img src="https://opencollective.com/socketio/backer/12/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/13/website" target="_blank"><img src="https://opencollective.com/socketio/backer/13/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/14/website" target="_blank"><img src="https://opencollective.com/socketio/backer/14/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/15/website" target="_blank"><img src="https://opencollective.com/socketio/backer/15/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/16/website" target="_blank"><img src="https://opencollective.com/socketio/backer/16/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/17/website" target="_blank"><img src="https://opencollective.com/socketio/backer/17/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/18/website" target="_blank"><img src="https://opencollective.com/socketio/backer/18/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/19/website" target="_blank"><img src="https://opencollective.com/socketio/backer/19/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/20/website" target="_blank"><img src="https://opencollective.com/socketio/backer/20/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/21/website" target="_blank"><img src="https://opencollective.com/socketio/backer/21/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/22/website" target="_blank"><img src="https://opencollective.com/socketio/backer/22/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/23/website" target="_blank"><img src="https://opencollective.com/socketio/backer/23/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/24/website" target="_blank"><img src="https://opencollective.com/socketio/backer/24/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/25/website" target="_blank"><img src="https://opencollective.com/socketio/backer/25/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/26/website" target="_blank"><img src="https://opencollective.com/socketio/backer/26/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/27/website" target="_blank"><img src="https://opencollective.com/socketio/backer/27/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/28/website" target="_blank"><img src="https://opencollective.com/socketio/backer/28/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/backer/29/website" target="_blank"><img src="https://opencollective.com/socketio/backer/29/avatar.svg"></a>\n\n\n## Sponsors\n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/socketio#sponsor)]\n\n<a href="https://opencollective.com/socketio/sponsor/0/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/0/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/1/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/1/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/2/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/2/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/3/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/3/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/4/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/4/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/5/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/5/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/6/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/6/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/7/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/7/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/8/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/8/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/9/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/9/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/10/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/10/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/11/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/11/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/12/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/12/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/13/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/13/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/14/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/14/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/15/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/15/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/16/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/16/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/17/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/17/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/18/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/18/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/19/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/19/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/20/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/20/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/21/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/21/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/22/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/22/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/23/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/23/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/24/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/24/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/25/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/25/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/26/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/26/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/27/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/27/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/28/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/28/avatar.svg"></a>\n<a href="https://opencollective.com/socketio/sponsor/29/website" target="_blank"><img src="https://opencollective.com/socketio/sponsor/29/avatar.svg"></a>\n\n\n## License\n\n[MIT](LICENSE)\n',
+109 silly resolved     readmeFilename: 'Readme.md',
+109 silly resolved     _id: 'socket.io@2.2.0',
+109 silly resolved     _from: 'socket.io@latest' } ]
+110 info install socket.io@2.2.0 into /home/mohammed/Chatbot-Server
+111 info installOne socket.io@2.2.0
+112 verbose from cache /home/mohammed/.npm/socket.io/2.2.0/package/package.json
+113 info /home/mohammed/Chatbot-Server/node_modules/socket.io unbuild
+114 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/package.json
+115 verbose tar unpack /home/mohammed/.npm/socket.io/2.2.0/package.tgz
+116 silly lockFile ec961c3b-ot-Server-node-modules-socket-io /home/mohammed/Chatbot-Server/node_modules/socket.io
+117 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io /home/mohammed/.npm/ec961c3b-ot-Server-node-modules-socket-io.lock
+118 silly gunzTarPerm modes [ '755', '644' ]
+119 silly gunzTarPerm extractEntry package.json
+120 silly gunzTarPerm extractEntry lib/socket.js
+121 silly gunzTarPerm extractEntry lib/index.js
+122 silly gunzTarPerm extractEntry lib/namespace.js
+123 silly gunzTarPerm extractEntry lib/client.js
+124 silly gunzTarPerm extractEntry lib/parent-namespace.js
+125 silly gunzTarPerm extractEntry Readme.md
+126 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/package.json
+127 silly lockFile ec961c3b-ot-Server-node-modules-socket-io /home/mohammed/Chatbot-Server/node_modules/socket.io
+128 info preinstall socket.io@2.2.0
+129 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/package.json
+130 verbose readDependencies using package.json deps
+131 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/package.json
+132 verbose readDependencies using package.json deps
+133 verbose cache add [ 'debug@~4.1.0', null ]
+134 silly cache add name=undefined spec="debug@~4.1.0" args=["debug@~4.1.0",null]
+135 verbose parsed url { pathname: 'debug@~4.1.0',
+135 verbose parsed url   path: 'debug@~4.1.0',
+135 verbose parsed url   href: 'debug@~4.1.0' }
+136 silly cache add name="debug" spec="~4.1.0" args=["debug","~4.1.0"]
+137 verbose parsed url { pathname: '~4.1.0', path: '~4.1.0', href: '~4.1.0' }
+138 verbose addNamed [ 'debug', '~4.1.0' ]
+139 verbose addNamed [ null, '>=4.1.0- <4.2.0-' ]
+140 silly lockFile 71c063cb-debug-4-1-0 debug@~4.1.0
+141 verbose lock debug@~4.1.0 /home/mohammed/.npm/71c063cb-debug-4-1-0.lock
+142 verbose cache add [ 'socket.io-adapter@~1.1.0', null ]
+143 silly cache add name=undefined spec="socket.io-adapter@~1.1.0" args=["socket.io-adapter@~1.1.0",null]
+144 verbose parsed url { pathname: 'socket.io-adapter@~1.1.0',
+144 verbose parsed url   path: 'socket.io-adapter@~1.1.0',
+144 verbose parsed url   href: 'socket.io-adapter@~1.1.0' }
+145 silly cache add name="socket.io-adapter" spec="~1.1.0" args=["socket.io-adapter","~1.1.0"]
+146 verbose parsed url { pathname: '~1.1.0', path: '~1.1.0', href: '~1.1.0' }
+147 verbose addNamed [ 'socket.io-adapter', '~1.1.0' ]
+148 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+149 silly lockFile cc3df3aa-socket-io-adapter-1-1-0 socket.io-adapter@~1.1.0
+150 verbose lock socket.io-adapter@~1.1.0 /home/mohammed/.npm/cc3df3aa-socket-io-adapter-1-1-0.lock
+151 silly addNameRange { name: 'debug', range: '>=4.1.0- <4.2.0-', hasData: false }
+152 silly addNameRange { name: 'socket.io-adapter',
+152 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+152 silly addNameRange   hasData: false }
+153 verbose url raw debug
+154 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+155 verbose url resolved https://registry.npmjs.org/debug
+156 info trying registry request attempt 1 at 23:26:17
+157 http GET https://registry.npmjs.org/debug
+158 verbose url raw socket.io-adapter
+159 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-adapter' ]
+160 verbose url resolved https://registry.npmjs.org/socket.io-adapter
+161 info trying registry request attempt 1 at 23:26:17
+162 http GET https://registry.npmjs.org/socket.io-adapter
+163 verbose cache add [ 'socket.io-client@2.2.0', null ]
+164 silly cache add name=undefined spec="socket.io-client@2.2.0" args=["socket.io-client@2.2.0",null]
+165 verbose parsed url { pathname: 'socket.io-client@2.2.0',
+165 verbose parsed url   path: 'socket.io-client@2.2.0',
+165 verbose parsed url   href: 'socket.io-client@2.2.0' }
+166 silly cache add name="socket.io-client" spec="2.2.0" args=["socket.io-client","2.2.0"]
+167 verbose parsed url { pathname: '2.2.0', path: '2.2.0', href: '2.2.0' }
+168 verbose addNamed [ 'socket.io-client', '2.2.0' ]
+169 verbose addNamed [ '2.2.0', '2.2.0' ]
+170 silly lockFile a892312a-socket-io-client-2-2-0 socket.io-client@2.2.0
+171 verbose lock socket.io-client@2.2.0 /home/mohammed/.npm/a892312a-socket-io-client-2-2-0.lock
+172 verbose cache add [ 'socket.io-parser@~3.3.0', null ]
+173 silly cache add name=undefined spec="socket.io-parser@~3.3.0" args=["socket.io-parser@~3.3.0",null]
+174 verbose parsed url { pathname: 'socket.io-parser@~3.3.0',
+174 verbose parsed url   path: 'socket.io-parser@~3.3.0',
+174 verbose parsed url   href: 'socket.io-parser@~3.3.0' }
+175 silly cache add name="socket.io-parser" spec="~3.3.0" args=["socket.io-parser","~3.3.0"]
+176 verbose parsed url { pathname: '~3.3.0', path: '~3.3.0', href: '~3.3.0' }
+177 verbose addNamed [ 'socket.io-parser', '~3.3.0' ]
+178 verbose addNamed [ null, '>=3.3.0- <3.4.0-' ]
+179 silly lockFile 1a97b1a4-socket-io-parser-3-3-0 socket.io-parser@~3.3.0
+180 verbose lock socket.io-parser@~3.3.0 /home/mohammed/.npm/1a97b1a4-socket-io-parser-3-3-0.lock
+181 silly addNameRange { name: 'socket.io-parser',
+181 silly addNameRange   range: '>=3.3.0- <3.4.0-',
+181 silly addNameRange   hasData: false }
+182 verbose url raw socket.io-client/2.2.0
+183 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/2.2.0' ]
+184 verbose url resolved https://registry.npmjs.org/socket.io-client/2.2.0
+185 info trying registry request attempt 1 at 23:26:17
+186 http GET https://registry.npmjs.org/socket.io-client/2.2.0
+187 verbose url raw socket.io-parser
+188 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-parser' ]
+189 verbose url resolved https://registry.npmjs.org/socket.io-parser
+190 info trying registry request attempt 1 at 23:26:17
+191 http GET https://registry.npmjs.org/socket.io-parser
+192 http 200 https://registry.npmjs.org/socket.io-client/2.2.0
+193 silly registry.get cb [ 200,
+193 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:18 GMT',
+193 silly registry.get     'content-type': 'application/json',
+193 silly registry.get     'transfer-encoding': 'chunked',
+193 silly registry.get     connection: 'keep-alive',
+193 silly registry.get     'cf-ray': '4e779f1d0b5fc025-MRS',
+193 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+193 silly registry.get     server: 'cloudflare' } ]
+194 silly lockFile f5f73d19-lient-socket-io-client-2-2-0-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz
+195 verbose lock https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz /home/mohammed/.npm/f5f73d19-lient-socket-io-client-2-2-0-tgz.lock
+196 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz',
+196 verbose addRemoteTarball   '84e73ee3c43d5020ccc1a258faeeb9aec2723af7' ]
+197 info retry fetch attempt 1 at 23:26:18
+198 verbose fetch to= /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/tmp.tgz
+199 http GET https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz
+200 http 200 https://registry.npmjs.org/socket.io-parser
+201 silly registry.get cb [ 200,
+201 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:18 GMT',
+201 silly registry.get     'content-type': 'application/json',
+201 silly registry.get     'content-length': '35844',
+201 silly registry.get     connection: 'keep-alive',
+201 silly registry.get     'cf-cache-status': 'HIT',
+201 silly registry.get     'cache-control': 'max-age=300',
+201 silly registry.get     'cf-ray': '4e779f1cdd2ec039-MRS',
+201 silly registry.get     'accept-ranges': 'bytes',
+201 silly registry.get     etag: '"3d9819860f1022eb2a5aaa09383f1fdd"',
+201 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+201 silly registry.get     'last-modified': 'Sat, 05 Jan 2019 12:46:33 GMT',
+201 silly registry.get     vary: 'accept-encoding, accept',
+201 silly registry.get     'x-amz-meta-rev': '59-878d7a06e160fbf875d01cb083558b1c',
+201 silly registry.get     server: 'cloudflare' } ]
+202 silly addNameRange number 2 { name: 'socket.io-parser',
+202 silly addNameRange   range: '>=3.3.0- <3.4.0-',
+202 silly addNameRange   hasData: true }
+203 silly addNameRange versions [ 'socket.io-parser',
+203 silly addNameRange   [ '1.0.1',
+203 silly addNameRange     '1.0.2',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.1.1',
+203 silly addNameRange     '1.1.2',
+203 silly addNameRange     '2.0.0',
+203 silly addNameRange     '2.1.0',
+203 silly addNameRange     '2.1.1',
+203 silly addNameRange     '2.1.2',
+203 silly addNameRange     '2.1.3',
+203 silly addNameRange     '2.1.4',
+203 silly addNameRange     '2.1.5',
+203 silly addNameRange     '2.2.0',
+203 silly addNameRange     '2.2.1',
+203 silly addNameRange     '2.2.2',
+203 silly addNameRange     '2.2.3',
+203 silly addNameRange     '2.2.4',
+203 silly addNameRange     '2.2.5',
+203 silly addNameRange     '2.2.6',
+203 silly addNameRange     '2.3.0',
+203 silly addNameRange     '2.3.1',
+203 silly addNameRange     '2.3.2',
+203 silly addNameRange     '3.0.0',
+203 silly addNameRange     '3.1.0',
+203 silly addNameRange     '3.1.1',
+203 silly addNameRange     '3.1.2',
+203 silly addNameRange     '3.1.3',
+203 silly addNameRange     '3.2.0',
+203 silly addNameRange     '3.3.0' ] ]
+204 verbose addNamed [ 'socket.io-parser', '3.3.0' ]
+205 verbose addNamed [ '3.3.0', '3.3.0' ]
+206 silly lockFile 3ba34448-socket-io-parser-3-3-0 socket.io-parser@3.3.0
+207 verbose lock socket.io-parser@3.3.0 /home/mohammed/.npm/3ba34448-socket-io-parser-3-3-0.lock
+208 silly lockFile b4253cc3-arser-socket-io-parser-3-3-0-tgz https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz
+209 verbose lock https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz /home/mohammed/.npm/b4253cc3-arser-socket-io-parser-3-3-0-tgz.lock
+210 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz',
+210 verbose addRemoteTarball   '2b52a96a509fdf31440ba40fed6094c7d4f1262f' ]
+211 info retry fetch attempt 1 at 23:26:19
+212 verbose fetch to= /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/tmp.tgz
+213 http GET https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz
+214 http 200 https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz
+215 http 200 https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz
+216 silly shasum updated bytes 5410
+217 info shasum 2b52a96a509fdf31440ba40fed6094c7d4f1262f
+217 info shasum /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/tmp.tgz
+218 verbose tar unpack /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/tmp.tgz
+219 silly lockFile 785fb1b5-79617-0-6487791663967073-package /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package
+220 verbose lock /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package /home/mohammed/.npm/785fb1b5-79617-0-6487791663967073-package.lock
+221 silly gunzTarPerm modes [ '755', '644' ]
+222 silly gunzTarPerm extractEntry package.json
+223 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+224 silly gunzTarPerm extractEntry binary.js
+225 silly gunzTarPerm modified mode [ 'binary.js', 436, 420 ]
+226 silly gunzTarPerm extractEntry index.js
+227 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+228 silly gunzTarPerm extractEntry is-buffer.js
+229 silly gunzTarPerm modified mode [ 'is-buffer.js', 436, 420 ]
+230 silly gunzTarPerm extractEntry LICENSE
+231 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+232 silly gunzTarPerm extractEntry Readme.md
+233 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+234 verbose read json /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package/package.json
+235 silly lockFile 785fb1b5-79617-0-6487791663967073-package /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package
+236 verbose from cache /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package/package.json
+237 verbose tar pack [ '/home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz',
+237 verbose tar pack   '/home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package' ]
+238 verbose tarball /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+239 verbose folder /home/mohammed/tmp/npm-4136/1560633979617-0.6487791663967073/package
+240 silly lockFile 6da8e79b-cket-io-parser-3-3-0-package-tgz /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+241 verbose lock /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz /home/mohammed/.npm/6da8e79b-cket-io-parser-3-3-0-package-tgz.lock
+242 silly lockFile 6da8e79b-cket-io-parser-3-3-0-package-tgz /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+243 silly lockFile 9f4c0a0a-m-socket-io-parser-3-3-0-package /home/mohammed/.npm/socket.io-parser/3.3.0/package
+244 verbose lock /home/mohammed/.npm/socket.io-parser/3.3.0/package /home/mohammed/.npm/9f4c0a0a-m-socket-io-parser-3-3-0-package.lock
+245 silly lockFile 9f4c0a0a-m-socket-io-parser-3-3-0-package /home/mohammed/.npm/socket.io-parser/3.3.0/package
+246 verbose tar unpack /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+247 silly lockFile 9f4c0a0a-m-socket-io-parser-3-3-0-package /home/mohammed/.npm/socket.io-parser/3.3.0/package
+248 verbose lock /home/mohammed/.npm/socket.io-parser/3.3.0/package /home/mohammed/.npm/9f4c0a0a-m-socket-io-parser-3-3-0-package.lock
+249 silly gunzTarPerm modes [ '755', '644' ]
+250 silly gunzTarPerm extractEntry package.json
+251 silly gunzTarPerm extractEntry index.js
+252 silly gunzTarPerm extractEntry binary.js
+253 silly gunzTarPerm extractEntry is-buffer.js
+254 silly gunzTarPerm extractEntry Readme.md
+255 verbose read json /home/mohammed/.npm/socket.io-parser/3.3.0/package/package.json
+256 silly lockFile 9f4c0a0a-m-socket-io-parser-3-3-0-package /home/mohammed/.npm/socket.io-parser/3.3.0/package
+257 silly shasum updated bytes 4713
+258 info shasum 85abff3eb57929ef7c0275adb5f83050a8137011
+258 info shasum /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+259 verbose from cache /home/mohammed/.npm/socket.io-parser/3.3.0/package/package.json
+260 verbose chmod /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz 644
+261 verbose chown /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz [ 1000, 1000 ]
+262 silly lockFile b4253cc3-arser-socket-io-parser-3-3-0-tgz https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-3.3.0.tgz
+263 silly lockFile 3ba34448-socket-io-parser-3-3-0 socket.io-parser@3.3.0
+264 silly lockFile 1a97b1a4-socket-io-parser-3-3-0 socket.io-parser@~3.3.0
+265 http 200 https://registry.npmjs.org/socket.io-adapter
+266 silly registry.get cb [ 200,
+266 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:20 GMT',
+266 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+266 silly registry.get     'content-length': '9300',
+266 silly registry.get     connection: 'keep-alive',
+266 silly registry.get     'cf-cache-status': 'HIT',
+266 silly registry.get     'cache-control': 'max-age=300',
+266 silly registry.get     'cf-ray': '4e779f2bfaf6d78d-MRS',
+266 silly registry.get     'accept-ranges': 'bytes',
+266 silly registry.get     etag: '"5695bfccd479d43d556a90cd4b8d6190"',
+266 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+266 silly registry.get     'last-modified': 'Sun, 27 May 2018 17:46:15 GMT',
+266 silly registry.get     vary: 'accept-encoding, accept',
+266 silly registry.get     server: 'cloudflare' } ]
+267 silly addNameRange number 2 { name: 'socket.io-adapter',
+267 silly addNameRange   range: '>=1.1.0- <1.2.0-',
+267 silly addNameRange   hasData: true }
+268 silly addNameRange versions [ 'socket.io-adapter',
+268 silly addNameRange   [ '0.1.0',
+268 silly addNameRange     '0.2.0',
+268 silly addNameRange     '0.3.0',
+268 silly addNameRange     '0.3.1',
+268 silly addNameRange     '0.4.0',
+268 silly addNameRange     '0.5.0',
+268 silly addNameRange     '1.0.0',
+268 silly addNameRange     '1.1.0',
+268 silly addNameRange     '1.1.1' ] ]
+269 verbose addNamed [ 'socket.io-adapter', '1.1.1' ]
+270 verbose addNamed [ '1.1.1', '1.1.1' ]
+271 silly lockFile 9aeb94a6-socket-io-adapter-1-1-1 socket.io-adapter@1.1.1
+272 verbose lock socket.io-adapter@1.1.1 /home/mohammed/.npm/9aeb94a6-socket-io-adapter-1-1-1.lock
+273 silly lockFile fc20c50b-pter-socket-io-adapter-1-1-1-tgz https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz
+274 verbose lock https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz /home/mohammed/.npm/fc20c50b-pter-socket-io-adapter-1-1-1-tgz.lock
+275 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz',
+275 verbose addRemoteTarball   '2a805e8a14d6372124dd9159ad4502f8cb07f06b' ]
+276 info retry fetch attempt 1 at 23:26:22
+277 verbose fetch to= /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/tmp.tgz
+278 http GET https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz
+279 http 200 https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz
+280 silly shasum updated bytes 2590
+281 info shasum 2a805e8a14d6372124dd9159ad4502f8cb07f06b
+281 info shasum /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/tmp.tgz
+282 verbose tar unpack /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/tmp.tgz
+283 silly lockFile 6add4d83-82167-0-9974876018241048-package /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package
+284 verbose lock /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package /home/mohammed/.npm/6add4d83-82167-0-9974876018241048-package.lock
+285 silly gunzTarPerm modes [ '755', '644' ]
+286 silly gunzTarPerm extractEntry package.json
+287 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+288 silly gunzTarPerm extractEntry .npmignore
+289 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+290 silly gunzTarPerm extractEntry LICENSE
+291 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+292 silly gunzTarPerm extractEntry index.js
+293 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+294 silly gunzTarPerm extractEntry Readme.md
+295 silly gunzTarPerm modified mode [ 'Readme.md', 436, 420 ]
+296 verbose read json /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package/package.json
+297 silly lockFile 6add4d83-82167-0-9974876018241048-package /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package
+298 verbose from cache /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package/package.json
+299 verbose tar pack [ '/home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz',
+299 verbose tar pack   '/home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package' ]
+300 verbose tarball /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+301 verbose folder /home/mohammed/tmp/npm-4136/1560633982167-0.9974876018241048/package
+302 silly lockFile f6a11b6d-ket-io-adapter-1-1-1-package-tgz /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+303 verbose lock /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz /home/mohammed/.npm/f6a11b6d-ket-io-adapter-1-1-1-package-tgz.lock
+304 silly lockFile f6a11b6d-ket-io-adapter-1-1-1-package-tgz /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+305 silly lockFile c65a5da4--socket-io-adapter-1-1-1-package /home/mohammed/.npm/socket.io-adapter/1.1.1/package
+306 verbose lock /home/mohammed/.npm/socket.io-adapter/1.1.1/package /home/mohammed/.npm/c65a5da4--socket-io-adapter-1-1-1-package.lock
+307 silly lockFile c65a5da4--socket-io-adapter-1-1-1-package /home/mohammed/.npm/socket.io-adapter/1.1.1/package
+308 verbose tar unpack /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+309 silly lockFile c65a5da4--socket-io-adapter-1-1-1-package /home/mohammed/.npm/socket.io-adapter/1.1.1/package
+310 verbose lock /home/mohammed/.npm/socket.io-adapter/1.1.1/package /home/mohammed/.npm/c65a5da4--socket-io-adapter-1-1-1-package.lock
+311 silly gunzTarPerm modes [ '755', '644' ]
+312 silly gunzTarPerm extractEntry package.json
+313 silly gunzTarPerm extractEntry .npmignore
+314 silly gunzTarPerm extractEntry LICENSE
+315 silly gunzTarPerm extractEntry index.js
+316 silly gunzTarPerm extractEntry Readme.md
+317 verbose read json /home/mohammed/.npm/socket.io-adapter/1.1.1/package/package.json
+318 silly lockFile c65a5da4--socket-io-adapter-1-1-1-package /home/mohammed/.npm/socket.io-adapter/1.1.1/package
+319 silly shasum updated bytes 2590
+320 info shasum fae7df66df52cc775d1ac9ec19a61e971f6f525f
+320 info shasum /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+321 verbose from cache /home/mohammed/.npm/socket.io-adapter/1.1.1/package/package.json
+322 verbose chmod /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz 644
+323 verbose chown /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz [ 1000, 1000 ]
+324 silly lockFile fc20c50b-pter-socket-io-adapter-1-1-1-tgz https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-1.1.1.tgz
+325 silly lockFile 9aeb94a6-socket-io-adapter-1-1-1 socket.io-adapter@1.1.1
+326 silly lockFile cc3df3aa-socket-io-adapter-1-1-0 socket.io-adapter@~1.1.0
+327 http 200 https://registry.npmjs.org/debug
+328 silly registry.get cb [ 200,
+328 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:18 GMT',
+328 silly registry.get     'content-type': 'application/json',
+328 silly registry.get     'content-length': '183659',
+328 silly registry.get     connection: 'keep-alive',
+328 silly registry.get     'cf-cache-status': 'HIT',
+328 silly registry.get     'cache-control': 'max-age=300',
+328 silly registry.get     'cf-ray': '4e779f200b1e5faf-MRS',
+328 silly registry.get     'accept-ranges': 'bytes',
+328 silly registry.get     etag: '"1565ffa7c9ca5ce9f0eda63fa397cdbb"',
+328 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+328 silly registry.get     'last-modified': 'Sun, 05 May 2019 08:25:09 GMT',
+328 silly registry.get     vary: 'accept-encoding, accept',
+328 silly registry.get     'x-amz-meta-rev': '903-9586012d9f175d3d08c57e4354fe1884',
+328 silly registry.get     server: 'cloudflare' } ]
+329 silly addNameRange number 2 { name: 'debug', range: '>=4.1.0- <4.2.0-', hasData: true }
+330 silly addNameRange versions [ 'debug',
+330 silly addNameRange   [ '0.0.1',
+330 silly addNameRange     '0.1.0',
+330 silly addNameRange     '0.2.0',
+330 silly addNameRange     '0.3.0',
+330 silly addNameRange     '0.4.0',
+330 silly addNameRange     '0.4.1',
+330 silly addNameRange     '0.5.0',
+330 silly addNameRange     '0.6.0',
+330 silly addNameRange     '0.7.0',
+330 silly addNameRange     '0.7.1',
+330 silly addNameRange     '0.7.2',
+330 silly addNameRange     '0.7.3',
+330 silly addNameRange     '0.7.4',
+330 silly addNameRange     '0.8.0',
+330 silly addNameRange     '0.8.1',
+330 silly addNameRange     '1.0.0',
+330 silly addNameRange     '1.0.1',
+330 silly addNameRange     '1.0.2',
+330 silly addNameRange     '1.0.3',
+330 silly addNameRange     '1.0.4',
+330 silly addNameRange     '2.0.0',
+330 silly addNameRange     '2.1.0',
+330 silly addNameRange     '2.1.1',
+330 silly addNameRange     '2.1.2',
+330 silly addNameRange     '2.1.3',
+330 silly addNameRange     '2.2.0',
+330 silly addNameRange     '2.3.0',
+330 silly addNameRange     '2.3.1',
+330 silly addNameRange     '2.3.2',
+330 silly addNameRange     '2.3.3',
+330 silly addNameRange     '2.4.0',
+330 silly addNameRange     '2.4.1',
+330 silly addNameRange     '2.4.2',
+330 silly addNameRange     '2.4.3',
+330 silly addNameRange     '2.4.4',
+330 silly addNameRange     '2.4.5',
+330 silly addNameRange     '2.5.0',
+330 silly addNameRange     '2.5.1',
+330 silly addNameRange     '2.5.2',
+330 silly addNameRange     '2.6.0',
+330 silly addNameRange     '2.6.1',
+330 silly addNameRange     '2.6.2',
+330 silly addNameRange     '2.6.3',
+330 silly addNameRange     '2.6.4',
+330 silly addNameRange     '2.6.5',
+330 silly addNameRange     '2.6.6',
+330 silly addNameRange     '2.6.7',
+330 silly addNameRange     '2.6.8',
+330 silly addNameRange     '1.0.5',
+330 silly addNameRange     '3.0.0',
+330 silly addNameRange     '3.0.1',
+330 silly addNameRange     '2.6.9',
+330 silly addNameRange     '3.1.0',
+330 silly addNameRange     '3.2.0',
+330 silly addNameRange     '3.2.1',
+330 silly addNameRange     '3.2.2',
+330 silly addNameRange     '3.2.3',
+330 silly addNameRange     '4.0.0',
+330 silly addNameRange     '3.2.4',
+330 silly addNameRange     '3.2.5',
+330 silly addNameRange     '4.0.1',
+330 silly addNameRange     '4.1.0',
+330 silly addNameRange     '3.2.6',
+330 silly addNameRange     '4.1.1' ] ]
+331 verbose addNamed [ 'debug', '4.1.1' ]
+332 verbose addNamed [ '4.1.1', '4.1.1' ]
+333 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+334 verbose lock debug@4.1.1 /home/mohammed/.npm/cfdf5a13-debug-4-1-1.lock
+335 silly lockFile a93980f8--npmjs-org-debug-debug-4-1-1-tgz https://registry.npmjs.org/debug/-/debug-4.1.1.tgz
+336 verbose lock https://registry.npmjs.org/debug/-/debug-4.1.1.tgz /home/mohammed/.npm/a93980f8--npmjs-org-debug-debug-4-1-1-tgz.lock
+337 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-4.1.1.tgz',
+337 verbose addRemoteTarball   '3b72260255109c6b589cee050f1d516139664791' ]
+338 info retry fetch attempt 1 at 23:26:27
+339 verbose fetch to= /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/tmp.tgz
+340 http GET https://registry.npmjs.org/debug/-/debug-4.1.1.tgz
+341 http 200 https://registry.npmjs.org/debug/-/debug-4.1.1.tgz
+342 silly shasum updated bytes 21773
+343 info shasum 3b72260255109c6b589cee050f1d516139664791
+343 info shasum /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/tmp.tgz
+344 verbose tar unpack /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/tmp.tgz
+345 silly lockFile eb63b026-7615-0-09033378586173058-package /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package
+346 verbose lock /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package /home/mohammed/.npm/eb63b026-7615-0-09033378586173058-package.lock
+347 silly gunzTarPerm modes [ '755', '644' ]
+348 silly gunzTarPerm extractEntry package.json
+349 silly gunzTarPerm extractEntry CHANGELOG.md
+350 silly gunzTarPerm extractEntry LICENSE
+351 silly gunzTarPerm extractEntry README.md
+352 silly gunzTarPerm extractEntry dist/debug.js
+353 silly gunzTarPerm extractEntry src/browser.js
+354 silly gunzTarPerm extractEntry src/common.js
+355 silly gunzTarPerm extractEntry src/index.js
+356 silly gunzTarPerm extractEntry src/node.js
+357 verbose read json /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package/package.json
+358 silly lockFile eb63b026-7615-0-09033378586173058-package /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package
+359 verbose from cache /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package/package.json
+360 verbose tar pack [ '/home/mohammed/.npm/debug/4.1.1/package.tgz',
+360 verbose tar pack   '/home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package' ]
+361 verbose tarball /home/mohammed/.npm/debug/4.1.1/package.tgz
+362 verbose folder /home/mohammed/tmp/npm-4136/1560633987615-0.09033378586173058/package
+363 silly lockFile ed827ea5-mmed-npm-debug-4-1-1-package-tgz /home/mohammed/.npm/debug/4.1.1/package.tgz
+364 verbose lock /home/mohammed/.npm/debug/4.1.1/package.tgz /home/mohammed/.npm/ed827ea5-mmed-npm-debug-4-1-1-package-tgz.lock
+365 silly lockFile ed827ea5-mmed-npm-debug-4-1-1-package-tgz /home/mohammed/.npm/debug/4.1.1/package.tgz
+366 silly lockFile 5cf5b527-mohammed-npm-debug-4-1-1-package /home/mohammed/.npm/debug/4.1.1/package
+367 verbose lock /home/mohammed/.npm/debug/4.1.1/package /home/mohammed/.npm/5cf5b527-mohammed-npm-debug-4-1-1-package.lock
+368 silly lockFile 5cf5b527-mohammed-npm-debug-4-1-1-package /home/mohammed/.npm/debug/4.1.1/package
+369 verbose tar unpack /home/mohammed/.npm/debug/4.1.1/package.tgz
+370 silly lockFile 5cf5b527-mohammed-npm-debug-4-1-1-package /home/mohammed/.npm/debug/4.1.1/package
+371 verbose lock /home/mohammed/.npm/debug/4.1.1/package /home/mohammed/.npm/5cf5b527-mohammed-npm-debug-4-1-1-package.lock
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm extractEntry README.md
+375 silly gunzTarPerm extractEntry LICENSE
+376 silly gunzTarPerm extractEntry dist/debug.js
+377 silly gunzTarPerm extractEntry src/common.js
+378 silly gunzTarPerm extractEntry src/index.js
+379 silly gunzTarPerm extractEntry src/browser.js
+380 silly gunzTarPerm extractEntry src/node.js
+381 verbose read json /home/mohammed/.npm/debug/4.1.1/package/package.json
+382 silly lockFile 5cf5b527-mohammed-npm-debug-4-1-1-package /home/mohammed/.npm/debug/4.1.1/package
+383 silly shasum updated bytes 17273
+384 info shasum 8e4b477bca0942173002083e9bf03acfc020d54a
+384 info shasum /home/mohammed/.npm/debug/4.1.1/package.tgz
+385 verbose from cache /home/mohammed/.npm/debug/4.1.1/package/package.json
+386 verbose chmod /home/mohammed/.npm/debug/4.1.1/package.tgz 644
+387 verbose chown /home/mohammed/.npm/debug/4.1.1/package.tgz [ 1000, 1000 ]
+388 silly lockFile a93980f8--npmjs-org-debug-debug-4-1-1-tgz https://registry.npmjs.org/debug/-/debug-4.1.1.tgz
+389 silly lockFile cfdf5a13-debug-4-1-1 debug@4.1.1
+390 silly lockFile 71c063cb-debug-4-1-0 debug@~4.1.0
+391 silly shasum updated bytes 40960
+392 silly shasum updated bytes 40960
+393 silly shasum updated bytes 40960
+394 silly shasum updated bytes 40960
+395 silly shasum updated bytes 40960
+396 silly shasum updated bytes 40960
+397 silly shasum updated bytes 40960
+398 silly shasum updated bytes 40960
+399 silly shasum updated bytes 40960
+400 silly shasum updated bytes 27705
+401 info shasum 84e73ee3c43d5020ccc1a258faeeb9aec2723af7
+401 info shasum /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/tmp.tgz
+402 verbose tar unpack /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/tmp.tgz
+403 silly lockFile 2e8ff1e8-8778-0-26368470513261855-package /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package
+404 verbose lock /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package /home/mohammed/.npm/2e8ff1e8-8778-0-26368470513261855-package.lock
+405 silly gunzTarPerm modes [ '755', '644' ]
+406 silly gunzTarPerm extractEntry package.json
+407 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+408 silly gunzTarPerm extractEntry LICENSE
+409 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+410 silly gunzTarPerm extractEntry README.md
+411 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+412 silly gunzTarPerm extractEntry dist/socket.io.dev.js
+413 silly gunzTarPerm modified mode [ 'dist/socket.io.dev.js', 436, 420 ]
+414 silly gunzTarPerm extractEntry dist/socket.io.dev.js.map
+415 silly gunzTarPerm modified mode [ 'dist/socket.io.dev.js.map', 436, 420 ]
+416 silly gunzTarPerm extractEntry dist/socket.io.js
+417 silly gunzTarPerm modified mode [ 'dist/socket.io.js', 436, 420 ]
+418 silly gunzTarPerm extractEntry dist/socket.io.js.map
+419 silly gunzTarPerm modified mode [ 'dist/socket.io.js.map', 436, 420 ]
+420 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js
+421 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.dev.js', 436, 420 ]
+422 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js.map
+423 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.dev.js.map', 436, 420 ]
+424 silly gunzTarPerm extractEntry dist/socket.io.slim.js
+425 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.js', 436, 420 ]
+426 silly gunzTarPerm extractEntry dist/socket.io.slim.js.map
+427 silly gunzTarPerm modified mode [ 'dist/socket.io.slim.js.map', 436, 420 ]
+428 silly gunzTarPerm extractEntry lib/index.js
+429 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+430 silly gunzTarPerm extractEntry lib/manager.js
+431 silly gunzTarPerm modified mode [ 'lib/manager.js', 436, 420 ]
+432 silly gunzTarPerm extractEntry lib/on.js
+433 silly gunzTarPerm modified mode [ 'lib/on.js', 436, 420 ]
+434 silly gunzTarPerm extractEntry lib/socket.js
+435 silly gunzTarPerm modified mode [ 'lib/socket.js', 436, 420 ]
+436 silly gunzTarPerm extractEntry lib/url.js
+437 silly gunzTarPerm modified mode [ 'lib/url.js', 436, 420 ]
+438 verbose read json /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package/package.json
+439 silly lockFile 2e8ff1e8-8778-0-26368470513261855-package /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package
+440 verbose from cache /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package/package.json
+441 verbose tar pack [ '/home/mohammed/.npm/socket.io-client/2.2.0/package.tgz',
+441 verbose tar pack   '/home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package' ]
+442 verbose tarball /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+443 verbose folder /home/mohammed/tmp/npm-4136/1560633978778-0.26368470513261855/package
+444 silly lockFile 9c590b9d-cket-io-client-2-2-0-package-tgz /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+445 verbose lock /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz /home/mohammed/.npm/9c590b9d-cket-io-client-2-2-0-package-tgz.lock
+446 silly lockFile 9c590b9d-cket-io-client-2-2-0-package-tgz /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+447 silly lockFile 7eba3a3b-m-socket-io-client-2-2-0-package /home/mohammed/.npm/socket.io-client/2.2.0/package
+448 verbose lock /home/mohammed/.npm/socket.io-client/2.2.0/package /home/mohammed/.npm/7eba3a3b-m-socket-io-client-2-2-0-package.lock
+449 silly lockFile 7eba3a3b-m-socket-io-client-2-2-0-package /home/mohammed/.npm/socket.io-client/2.2.0/package
+450 verbose tar unpack /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+451 silly lockFile 7eba3a3b-m-socket-io-client-2-2-0-package /home/mohammed/.npm/socket.io-client/2.2.0/package
+452 verbose lock /home/mohammed/.npm/socket.io-client/2.2.0/package /home/mohammed/.npm/7eba3a3b-m-socket-io-client-2-2-0-package.lock
+453 silly gunzTarPerm modes [ '755', '644' ]
+454 silly gunzTarPerm extractEntry package.json
+455 silly gunzTarPerm extractEntry README.md
+456 silly gunzTarPerm extractEntry lib/url.js
+457 silly gunzTarPerm extractEntry lib/socket.js
+458 silly gunzTarPerm extractEntry lib/manager.js
+459 silly gunzTarPerm extractEntry lib/index.js
+460 silly gunzTarPerm extractEntry lib/on.js
+461 silly gunzTarPerm extractEntry dist/socket.io.js
+462 silly gunzTarPerm extractEntry dist/socket.io.dev.js
+463 silly gunzTarPerm extractEntry dist/socket.io.slim.js
+464 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js
+465 silly gunzTarPerm extractEntry dist/socket.io.slim.js.map
+466 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js.map
+467 silly gunzTarPerm extractEntry dist/socket.io.dev.js.map
+468 silly gunzTarPerm extractEntry dist/socket.io.js.map
+469 verbose read json /home/mohammed/.npm/socket.io-client/2.2.0/package/package.json
+470 silly lockFile 7eba3a3b-m-socket-io-client-2-2-0-package /home/mohammed/.npm/socket.io-client/2.2.0/package
+471 silly shasum updated bytes 40960
+472 silly shasum updated bytes 40960
+473 silly shasum updated bytes 40960
+474 silly shasum updated bytes 40960
+475 silly shasum updated bytes 40960
+476 silly shasum updated bytes 40960
+477 silly shasum updated bytes 40960
+478 silly shasum updated bytes 40960
+479 silly shasum updated bytes 40960
+480 silly shasum updated bytes 27547
+481 info shasum a84cf3e36ab2311fa4612674f89164c4cc05dd7a
+481 info shasum /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+482 verbose from cache /home/mohammed/.npm/socket.io-client/2.2.0/package/package.json
+483 verbose chmod /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz 644
+484 verbose chown /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz [ 1000, 1000 ]
+485 silly lockFile f5f73d19-lient-socket-io-client-2-2-0-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-2.2.0.tgz
+486 silly lockFile a892312a-socket-io-client-2-2-0 socket.io-client@2.2.0
+487 silly resolved [ { name: 'socket.io-parser',
+487 silly resolved     version: '3.3.0',
+487 silly resolved     description: 'socket.io protocol parser',
+487 silly resolved     repository:
+487 silly resolved      { type: 'git',
+487 silly resolved        url: 'https://github.com/Automattic/socket.io-parser.git' },
+487 silly resolved     files: [ 'binary.js', 'index.js', 'is-buffer.js' ],
+487 silly resolved     dependencies:
+487 silly resolved      { debug: '~3.1.0',
+487 silly resolved        'component-emitter': '1.2.1',
+487 silly resolved        isarray: '2.0.1' },
+487 silly resolved     devDependencies:
+487 silly resolved      { benchmark: '2.1.2',
+487 silly resolved        'expect.js': '0.3.1',
+487 silly resolved        mocha: '3.2.0',
+487 silly resolved        'socket.io-browsers': '^1.0.0',
+487 silly resolved        zuul: '3.11.1',
+487 silly resolved        'zuul-ngrok': '4.0.0' },
+487 silly resolved     scripts: { test: 'make test' },
+487 silly resolved     license: 'MIT',
+487 silly resolved     readme: '\n# socket.io-parser\n\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io-parser.svg?branch=master)](http://travis-ci.org/socketio/socket.io-parser)\n[![NPM version](https://badge.fury.io/js/socket.io-parser.svg)](http://badge.fury.io/js/socket.io-parser)\n\nA socket.io encoder and decoder written in JavaScript complying with version `3`\nof [socket.io-protocol](https://github.com/socketio/socket.io-protocol).\nUsed by [socket.io](https://github.com/automattic/socket.io) and\n[socket.io-client](https://github.com/automattic/socket.io-client).\n\n## Parser API\n\n  socket.io-parser is the reference implementation of socket.io-protocol. Read\n  the full API here:\n  [socket.io-protocol](https://github.com/learnboost/socket.io-protocol).\n\n## Example Usage\n\n### Encoding and decoding a packet\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.EVENT,\n  data: \'test-packet\',\n  id: 13\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.EVENT\n    // decodedPacket.data == \'test-packet\'\n    // decodedPacket.id == 13\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\n\n### Encoding and decoding a packet with binary data\n\n```js\nvar parser = require(\'socket.io-parser\');\nvar encoder = new parser.Encoder();\nvar packet = {\n  type: parser.BINARY_EVENT,\n  data: {i: new Buffer(1234), j: new Blob([new ArrayBuffer(2)])}\n  id: 15\n};\nencoder.encode(packet, function(encodedPackets) {\n  var decoder = new parser.Decoder();\n  decoder.on(\'decoded\', function(decodedPacket) {\n    // decodedPacket.type == parser.BINARY_EVENT\n    // Buffer.isBuffer(decodedPacket.data.i) == true\n    // Buffer.isBuffer(decodedPacket.data.j) == true\n    // decodedPacket.id == 15\n  });\n\n  for (var i = 0; i < encodedPackets.length; i++) {\n    decoder.add(encodedPackets[i]);\n  }\n});\n```\nSee the test suite for more examples of how socket.io-parser is used.\n\n\n## License\n\nMIT\n',
+487 silly resolved     readmeFilename: 'Readme.md',
+487 silly resolved     _id: 'socket.io-parser@3.3.0',
+487 silly resolved     dist: { shasum: '85abff3eb57929ef7c0275adb5f83050a8137011' },
+487 silly resolved     _from: 'socket.io-parser@~3.3.0' },
+487 silly resolved   { name: 'socket.io-adapter',
+487 silly resolved     version: '1.1.1',
+487 silly resolved     license: 'MIT',
+487 silly resolved     repository:
+487 silly resolved      { type: 'git',
+487 silly resolved        url: 'git://github.com/socketio/socket.io-adapter.git' },
+487 silly resolved     description: 'default socket.io in-memory adapter',
+487 silly resolved     readme: '\n# socket.io-adapter\n\nDefault socket.io in-memory adapter class.\n\n## How to use\n\nThis module is not intended for end-user usage, but can be used as an\ninterface to inherit from from other adapters you might want to build.\n\nAs an example of an adapter that builds on top of this, please take a look\nat [socket.io-redis](https://github.com/learnboost/socket.io-redis).\n\n## License\n\nMIT\n',
+487 silly resolved     readmeFilename: 'Readme.md',
+487 silly resolved     _id: 'socket.io-adapter@1.1.1',
+487 silly resolved     dist: { shasum: 'fae7df66df52cc775d1ac9ec19a61e971f6f525f' },
+487 silly resolved     _from: 'socket.io-adapter@~1.1.0' },
+487 silly resolved   { name: 'debug',
+487 silly resolved     version: '4.1.1',
+487 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+487 silly resolved     description: 'small debugging utility',
+487 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+487 silly resolved     files: [ 'src', 'dist/debug.js', 'LICENSE', 'README.md' ],
+487 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+487 silly resolved     contributors: [ [Object], [Object] ],
+487 silly resolved     license: 'MIT',
+487 silly resolved     scripts:
+487 silly resolved      { lint: 'xo',
+487 silly resolved        test: 'npm run test:node && npm run test:browser',
+487 silly resolved        'test:node': 'istanbul cover _mocha -- test.js',
+487 silly resolved        'pretest:browser': 'npm run build',
+487 silly resolved        'test:browser': 'karma start --single-run',
+487 silly resolved        'prebuild:debug': 'mkdir -p dist && browserify --standalone debug -o dist/debug.es6.js .',
+487 silly resolved        'build:debug': 'babel -o dist/debug.js dist/debug.es6.js > dist/debug.js',
+487 silly resolved        'build:test': 'babel -d dist test.js',
+487 silly resolved        build: 'npm run build:debug && npm run build:test',
+487 silly resolved        clean: 'rimraf dist coverage',
+487 silly resolved        'test:coverage': 'cat ./coverage/lcov.info | coveralls' },
+487 silly resolved     dependencies: { ms: '^2.1.1' },
+487 silly resolved     devDependencies:
+487 silly resolved      { '@babel/cli': '^7.0.0',
+487 silly resolved        '@babel/core': '^7.0.0',
+487 silly resolved        '@babel/preset-env': '^7.0.0',
+487 silly resolved        browserify: '14.4.0',
+487 silly resolved        chai: '^3.5.0',
+487 silly resolved        concurrently: '^3.1.0',
+487 silly resolved        coveralls: '^3.0.2',
+487 silly resolved        istanbul: '^0.4.5',
+487 silly resolved        karma: '^3.0.0',
+487 silly resolved        'karma-chai': '^0.1.0',
+487 silly resolved        'karma-mocha': '^1.3.0',
+487 silly resolved        'karma-phantomjs-launcher': '^1.0.2',
+487 silly resolved        mocha: '^5.2.0',
+487 silly resolved        'mocha-lcov-reporter': '^1.2.0',
+487 silly resolved        rimraf: '^2.5.4',
+487 silly resolved        xo: '^0.23.0' },
+487 silly resolved     main: './src/index.js',
+487 silly resolved     browser: './src/browser.js',
+487 silly resolved     unpkg: './dist/debug.js',
+487 silly resolved     readme: '# debug\n[![Build Status](https://travis-ci.org/visionmedia/debug.svg?branch=master)](https://travis-ci.org/visionmedia/debug)  [![Coverage Status](https://coveralls.io/repos/github/visionmedia/debug/badge.svg?branch=master)](https://coveralls.io/github/visionmedia/debug?branch=master)  [![Slack](https://visionmedia-community-slackin.now.sh/badge.svg)](https://visionmedia-community-slackin.now.sh/) [![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)\n[![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nA tiny JavaScript debugging utility modelled after Node.js core\'s debugging\ntechnique. Works in Node.js and web browsers.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n`debug` exposes a function; simply pass this function the name of your module, and it will return a decorated version of `console.error` for you to pass debug statements to. This will allow you to toggle the debug output for different parts of your module as well as the module as a whole.\n\nExample [_app.js_](./examples/node/app.js):\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %o\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample [_worker.js_](./examples/node/worker.js):\n\n```js\nvar a = require(\'debug\')(\'worker:a\')\n  , b = require(\'debug\')(\'worker:b\');\n\nfunction work() {\n  a(\'doing lots of uninteresting work\');\n  setTimeout(work, Math.random() * 1000);\n}\n\nwork();\n\nfunction workb() {\n  b(\'doing some work\');\n  setTimeout(workb, Math.random() * 2000);\n}\n\nworkb();\n```\n\nThe `DEBUG` environment variable is then used to enable these based on space or\ncomma-delimited names.\n\nHere are some examples:\n\n<img width="647" alt="screen shot 2017-08-08 at 12 53 04 pm" src="https://user-images.githubusercontent.com/71256/29091703-a6302cdc-7c38-11e7-8304-7c0b3bc600cd.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 38 pm" src="https://user-images.githubusercontent.com/71256/29091700-a62a6888-7c38-11e7-800b-db911291ca2b.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 25 pm" src="https://user-images.githubusercontent.com/71256/29091701-a62ea114-7c38-11e7-826a-2692bedca740.png">\n\n#### Windows command prompt notes\n\n##### CMD\n\nOn Windows the environment variable is set using the `set` command.\n\n```cmd\nset DEBUG=*,-not_this\n```\n\nExample:\n\n```cmd\nset DEBUG=* & node app.js\n```\n\n##### PowerShell (VS Code default)\n\nPowerShell uses different syntax to set environment variables.\n\n```cmd\n$env:DEBUG = "*,-not_this"\n```\n\nExample:\n\n```cmd\n$env:DEBUG=\'app\';node app.js\n```\n\nThen, run the program to be debugged as usual.\n\nnpm script example:\n```js\n  "windowsDebug": "@powershell -Command $env:DEBUG=\'*\';node app.js",\n```\n\n## Namespace Colors\n\nEvery debug instance has a color generated for it based on its namespace name.\nThis helps when visually parsing the debug output to identify which debug instance\na debug line belongs to.\n\n#### Node.js\n\nIn Node.js, colors are enabled when stderr is a TTY. You also _should_ install\nthe [`supports-color`](https://npmjs.org/supports-color) module alongside debug,\notherwise debug will only use a small handful of basic colors.\n\n<img width="521" src="https://user-images.githubusercontent.com/71256/29092181-47f6a9e6-7c3a-11e7-9a14-1928d8a711cd.png">\n\n#### Web Browser\n\nColors are also enabled on "Web Inspectors" that understand the `%c` formatting\noption. These are WebKit web inspectors, Firefox ([since version\n31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\nand the Firebug plugin for Firefox (any version).\n\n<img width="524" src="https://user-images.githubusercontent.com/71256/29092033-b65f9f2e-7c39-11e7-8e32-f6f0d8e865c1.png">\n\n\n## Millisecond diff\n\nWhen actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nWhen stdout is not a TTY, `Date#toISOString()` is used, making it more useful for logging the debug information as shown below:\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091956-6bd78372-7c39-11e7-8c55-c948396d6edd.png">\n\n\n## Conventions\n\nIf you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".  If you append a "*" to the end of your name, it will always be enabled regardless of the setting of the DEBUG environment variable.  You can then use it for normal output as well as debug output.\n\n## Wildcards\n\nThe `*` character may be used as a wildcard. Suppose for example your library has\ndebuggers named "connect:bodyParser", "connect:compress", "connect:session",\ninstead of listing all three with\n`DEBUG=connect:bodyParser,connect:compress,connect:session`, you may simply do\n`DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\nYou can also exclude specific debuggers by prefixing them with a "-" character.\nFor example, `DEBUG=*,-connect:*` would include all debuggers except those\nstarting with "connect:".\n\n## Environment Variables\n\nWhen running through Node.js, you can set a few environment variables that will\nchange the behavior of the debug logging:\n\n| Name      | Purpose                                         |\n|-----------|-------------------------------------------------|\n| `DEBUG`   | Enables/disables specific debugging namespaces. |\n| `DEBUG_HIDE_DATE` | Hide date from debug output (non-TTY).  |\n| `DEBUG_COLORS`| Whether or not to use colors in the debug output. |\n| `DEBUG_DEPTH` | Object inspection depth.                    |\n| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |\n\n\n__Note:__ The environment variables beginning with `DEBUG_` end up being\nconverted into an Options object that gets used with `%o`/`%O` formatters.\nSee the Node.js documentation for\n[`util.inspect()`](https://nodejs.org/api/util.html#util_util_inspect_object_options)\nfor the complete list.\n\n## Formatters\n\nDebug uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting.\nBelow are the officially supported formatters:\n\n| Formatter | Representation |\n|-----------|----------------|\n| `%O`      | Pretty-print an Object on multiple lines. |\n| `%o`      | Pretty-print an Object all on a single line. |\n| `%s`      | String. |\n| `%d`      | Number (both integer and float). |\n| `%j`      | JSON. Replaced with the string \'[Circular]\' if the argument contains circular references. |\n| `%%`      | Single percent sign (\'%\'). This does not consume an argument. |\n\n\n### Custom formatters\n\nYou can add custom formatters by extending the `debug.formatters` object.\nFor example, if you wanted to add support for rendering a Buffer as hex with\n`%h`, you could do something like:\n\n```js\nconst createDebug = require(\'debug\')\ncreateDebug.formatters.h = (v) => {\n  return v.toString(\'hex\')\n}\n\n// …elsewhere\nconst debug = createDebug(\'foo\')\ndebug(\'this is hex: %h\', new Buffer(\'hello world\'))\n//   foo this is hex: 68656c6c6f20776f726c6421 +0ms\n```\n\n\n## Browser Support\n\nYou can build a browser-ready script using [browserify](https://github.com/substack/node-browserify),\nor just use the [browserify-as-a-service](https://wzrd.in/) [build](https://wzrd.in/standalone/debug@latest),\nif you don\'t want to build it yourself.\n\nDebug\'s enable state is currently persisted by `localStorage`.\nConsider the situation shown below where you have `worker:a` and `worker:b`,\nand wish to debug both. You can enable this using `localStorage.debug`:\n\n```js\nlocalStorage.debug = \'worker:*\'\n```\n\nAnd then refresh the page.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n\n## Output streams\n\n  By default `debug` will log to stderr, however this can be configured per-namespace by overriding the `log` method:\n\nExample [_stdout.js_](./examples/node/stdout.js):\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n## Extend\nYou can simply extend debugger \n```js\nconst log = require(\'debug\')(\'auth\');\n\n//creates new debug instance with extended namespace\nconst logSign = log.extend(\'sign\');\nconst logLogin = log.extend(\'login\');\n\nlog(\'hello\'); // auth hello\nlogSign(\'hello\'); //auth:sign hello\nlogLogin(\'hello\'); //auth:login hello\n```\n\n## Set dynamically\n\nYou can also enable debug dynamically by calling the `enable()` method :\n\n```js\nlet debug = require(\'debug\');\n\nconsole.log(1, debug.enabled(\'test\'));\n\ndebug.enable(\'test\');\nconsole.log(2, debug.enabled(\'test\'));\n\ndebug.disable();\nconsole.log(3, debug.enabled(\'test\'));\n\n```\n\nprint :   \n```\n1 false\n2 true\n3 false\n```\n\nUsage :  \n`enable(namespaces)`  \n`namespaces` can include modes separated by a colon and wildcards.\n   \nNote that calling `enable()` completely overrides previously set DEBUG variable : \n\n```\n$ DEBUG=foo node -e \'var dbg = require("debug"); dbg.enable("bar"); console.log(dbg.enabled("foo"))\'\n=> false\n```\n\n`disable()`\n\nWill disable all namespaces. The functions returns the namespaces currently\nenabled (and skipped). This can be useful if you want to disable debugging\ntemporarily without knowing what was enabled to begin with.\n\nFor example:\n\n```js\nlet debug = require(\'debug\');\ndebug.enable(\'foo:*,-foo:bar\');\nlet namespaces = debug.disable();\ndebug.enable(namespaces);\n```\n\nNote: There is no guarantee that the string will be identical to the initial\nenable string, but semantically they will be identical.\n\n## Checking whether a debug target is enabled\n\nAfter you\'ve created a debug instance, you can determine whether or not it is\nenabled by checking the `enabled` property:\n\n```javascript\nconst debug = require(\'debug\')(\'http\');\n\nif (debug.enabled) {\n  // do stuff...\n}\n```\n\nYou can also manually toggle this property to force the debug instance to be\nenabled or disabled.\n\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n - Andrew Rhyne\n\n## Backers\n\nSupport us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/debug#backer)]\n\n<a href="https://opencollective.com/debug/backer/0/website" target="_blank"><img src="https://opencollective.com/debug/backer/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/1/website" target="_blank"><img src="https://opencollective.com/debug/backer/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/2/website" target="_blank"><img src="https://opencollective.com/debug/backer/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/3/website" target="_blank"><img src="https://opencollective.com/debug/backer/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/4/website" target="_blank"><img src="https://opencollective.com/debug/backer/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/5/website" target="_blank"><img src="https://opencollective.com/debug/backer/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/6/website" target="_blank"><img src="https://opencollective.com/debug/backer/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/7/website" target="_blank"><img src="https://opencollective.com/debug/backer/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/8/website" target="_blank"><img src="https://opencollective.com/debug/backer/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/9/website" target="_blank"><img src="https://opencollective.com/debug/backer/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/10/website" target="_blank"><img src="https://opencollective.com/debug/backer/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/11/website" target="_blank"><img src="https://opencollective.com/debug/backer/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/12/website" target="_blank"><img src="https://opencollective.com/debug/backer/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/13/website" target="_blank"><img src="https://opencollective.com/debug/backer/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/14/website" target="_blank"><img src="https://opencollective.com/debug/backer/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/15/website" target="_blank"><img src="https://opencollective.com/debug/backer/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/16/website" target="_blank"><img src="https://opencollective.com/debug/backer/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/17/website" target="_blank"><img src="https://opencollective.com/debug/backer/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/18/website" target="_blank"><img src="https://opencollective.com/debug/backer/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/19/website" target="_blank"><img src="https://opencollective.com/debug/backer/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/20/website" target="_blank"><img src="https://opencollective.com/debug/backer/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/21/website" target="_blank"><img src="https://opencollective.com/debug/backer/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/22/website" target="_blank"><img src="https://opencollective.com/debug/backer/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/23/website" target="_blank"><img src="https://opencollective.com/debug/backer/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/24/website" target="_blank"><img src="https://opencollective.com/debug/backer/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/25/website" target="_blank"><img src="https://opencollective.com/debug/backer/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/26/website" target="_blank"><img src="https://opencollective.com/debug/backer/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/27/website" target="_blank"><img src="https://opencollective.com/debug/backer/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/28/website" target="_blank"><img src="https://opencollective.com/debug/backer/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/29/website" target="_blank"><img src="https://opencollective.com/debug/backer/29/avatar.svg"></a>\n\n\n## Sponsors\n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/debug#sponsor)]\n\n<a href="https://opencollective.com/debug/sponsor/0/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/1/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/2/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/3/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/4/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/5/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/6/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/7/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/8/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/9/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/10/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/11/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/12/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/13/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/14/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/15/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/16/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/17/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/18/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/19/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/20/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/21/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/22/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/23/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/24/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/25/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/26/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/27/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/28/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/29/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/29/avatar.svg"></a>\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014-2017 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+487 silly resolved     readmeFilename: 'README.md',
+487 silly resolved     _id: 'debug@4.1.1',
+487 silly resolved     dist: { shasum: '8e4b477bca0942173002083e9bf03acfc020d54a' },
+487 silly resolved     _from: 'debug@~4.1.0' },
+487 silly resolved   { name: 'socket.io-client',
+487 silly resolved     version: '2.2.0',
+487 silly resolved     keywords: [ 'realtime', 'framework', 'websocket', 'tcp', 'events', 'client' ],
+487 silly resolved     main: './lib/index',
+487 silly resolved     files: [ 'lib/', 'dist/' ],
+487 silly resolved     dependencies:
+487 silly resolved      { backo2: '1.0.2',
+487 silly resolved        'base64-arraybuffer': '0.1.5',
+487 silly resolved        'component-bind': '1.0.0',
+487 silly resolved        'component-emitter': '1.2.1',
+487 silly resolved        debug: '~3.1.0',
+487 silly resolved        'engine.io-client': '~3.3.1',
+487 silly resolved        'has-binary2': '~1.0.2',
+487 silly resolved        'has-cors': '1.1.0',
+487 silly resolved        indexof: '0.0.1',
+487 silly resolved        'object-component': '0.0.3',
+487 silly resolved        parseqs: '0.0.5',
+487 silly resolved        parseuri: '0.0.5',
+487 silly resolved        'socket.io-parser': '~3.3.0',
+487 silly resolved        'to-array': '0.1.4' },
+487 silly resolved     devDependencies:
+487 silly resolved      { 'babel-core': '^6.24.1',
+487 silly resolved        'babel-eslint': '4.1.7',
+487 silly resolved        'babel-loader': '7.0.0',
+487 silly resolved        'babel-preset-es2015': '6.24.1',
+487 silly resolved        'concat-stream': '^1.6.0',
+487 silly resolved        derequire: '^2.0.6',
+487 silly resolved        'eslint-config-standard': '4.4.0',
+487 silly resolved        'eslint-plugin-standard': '1.3.1',
+487 silly resolved        'expect.js': '0.3.1',
+487 silly resolved        gulp: '^3.9.1',
+487 silly resolved        'gulp-eslint': '1.1.1',
+487 silly resolved        'gulp-file': '^0.3.0',
+487 silly resolved        'gulp-istanbul': '^1.1.1',
+487 silly resolved        'gulp-mocha': '^4.3.1',
+487 silly resolved        'gulp-task-listing': '1.0.1',
+487 silly resolved        'imports-loader': '^0.7.1',
+487 silly resolved        istanbul: '^0.4.5',
+487 silly resolved        mocha: '^3.3.0',
+487 silly resolved        'socket.io': '2.2.0',
+487 silly resolved        'socket.io-browsers': '^1.0.0',
+487 silly resolved        'strip-loader': '0.1.2',
+487 silly resolved        'text-blob-builder': '0.0.1',
+487 silly resolved        'webpack-merge': '4.1.2',
+487 silly resolved        'webpack-stream': '3.2.0',
+487 silly resolved        zuul: '~3.11.1',
+487 silly resolved        'zuul-builder-webpack': '^1.2.0',
+487 silly resolved        'zuul-ngrok': '4.0.0' },
+487 silly resolved     scripts: { test: 'gulp test' },
+487 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+487 silly resolved     repository:
+487 silly resolved      { type: 'git',
+487 silly resolved        url: 'https://github.com/Automattic/socket.io-client.git' },
+487 silly resolved     license: 'MIT',
+487 silly resolved     readme: '\n# socket.io-client\n\n[![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client)\n[![Dependency Status](https://david-dm.org/socketio/socket.io-client.svg)](https://david-dm.org/socketio/socket.io-client)\n[![devDependency Status](https://david-dm.org/socketio/socket.io-client/dev-status.svg)](https://david-dm.org/socketio/socket.io-client#info=devDependencies)\n[![NPM version](https://badge.fury.io/js/socket.io-client.svg)](https://www.npmjs.com/package/socket.io-client)\n![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat)\n[![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)\n\n[![Sauce Test Status](https://saucelabs.com/browser-matrix/socket.svg)](https://saucelabs.com/u/socket)\n\n## How to use\n\nA standalone build of `socket.io-client` is exposed automatically by the\nsocket.io server as `/socket.io/socket.io.js`. Alternatively you can\nserve the file `socket.io.js` found in the `dist` folder.\n\n```html\n<script src="/socket.io/socket.io.js"></script>\n<script>\n  var socket = io(\'http://localhost\');\n  socket.on(\'connect\', function(){});\n  socket.on(\'event\', function(data){});\n  socket.on(\'disconnect\', function(){});\n</script>\n```\n\n```js\n// with ES6 import\nimport io from \'socket.io-client\';\n\nconst socket = io(\'http://localhost\');\n```\n\nA slim build (without `JSON3`, a JSON polyfill for IE6/IE7, and `debug`) is also available: `socket.io.slim.js`.\n\nSocket.IO is compatible with [browserify](http://browserify.org/) and [webpack](https://webpack.js.org/) (see example [there](https://github.com/socketio/socket.io/tree/2.0.3/examples/webpack-build)).\n\n### Node.JS (server-side usage)\n\n  Add `socket.io-client` to your `package.json` and then:\n\n  ```js\n  var socket = require(\'socket.io-client\')(\'http://localhost\');\n  socket.on(\'connect\', function(){});\n  socket.on(\'event\', function(data){});\n  socket.on(\'disconnect\', function(){});\n  ```\n\n## API\n\nSee [API](/docs/API.md)\n\n## License\n\n[MIT](/LICENSE)\n',
+487 silly resolved     readmeFilename: 'README.md',
+487 silly resolved     _id: 'socket.io-client@2.2.0',
+487 silly resolved     description: '[![Build Status](https://secure.travis-ci.org/socketio/socket.io-client.svg?branch=master)](http://travis-ci.org/socketio/socket.io-client) [![Dependency Status](https://david-dm.org/socketio/socket.io-client.svg)](https://david-dm.org/socketio/socket.io-client) [![devDependency Status](https://david-dm.org/socketio/socket.io-client/dev-status.svg)](https://david-dm.org/socketio/socket.io-client#info=devDependencies) [![NPM version](https://badge.fury.io/js/socket.io-client.svg)](https://www.npmjs.com/package/socket.io-client) ![Downloads](http://img.shields.io/npm/dm/socket.io-client.svg?style=flat) [![](http://slack.socket.io/badge.svg?)](http://slack.socket.io)',
+487 silly resolved     dist: { shasum: 'a84cf3e36ab2311fa4612674f89164c4cc05dd7a' },
+487 silly resolved     _from: 'socket.io-client@2.2.0' } ]
+488 info install socket.io-parser@3.3.0 into /home/mohammed/Chatbot-Server/node_modules/socket.io
+489 info install socket.io-adapter@1.1.1 into /home/mohammed/Chatbot-Server/node_modules/socket.io
+490 info install debug@4.1.1 into /home/mohammed/Chatbot-Server/node_modules/socket.io
+491 info install socket.io-client@2.2.0 into /home/mohammed/Chatbot-Server/node_modules/socket.io
+492 info installOne socket.io-parser@3.3.0
+493 info installOne socket.io-adapter@1.1.1
+494 info installOne debug@4.1.1
+495 info installOne socket.io-client@2.2.0
+496 verbose from cache /home/mohammed/.npm/socket.io-parser/3.3.0/package/package.json
+497 verbose from cache /home/mohammed/.npm/socket.io-adapter/1.1.1/package/package.json
+498 verbose from cache /home/mohammed/.npm/debug/4.1.1/package/package.json
+499 verbose from cache /home/mohammed/.npm/socket.io-client/2.2.0/package/package.json
+500 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser unbuild
+501 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/package.json
+502 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter unbuild
+503 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter/package.json
+504 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug unbuild
+505 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug/package.json
+506 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client unbuild
+507 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/package.json
+508 verbose tar unpack /home/mohammed/.npm/socket.io-parser/3.3.0/package.tgz
+509 verbose tar unpack /home/mohammed/.npm/socket.io-adapter/1.1.1/package.tgz
+510 verbose tar unpack /home/mohammed/.npm/debug/4.1.1/package.tgz
+511 verbose tar unpack /home/mohammed/.npm/socket.io-client/2.2.0/package.tgz
+512 silly lockFile a5066a77-io-node-modules-socket-io-parser /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser
+513 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser /home/mohammed/.npm/a5066a77-io-node-modules-socket-io-parser.lock
+514 silly lockFile 0443c7f2-o-node-modules-socket-io-adapter /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter
+515 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter /home/mohammed/.npm/0443c7f2-o-node-modules-socket-io-adapter.lock
+516 silly lockFile c4c4b299-les-socket-io-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug
+517 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug /home/mohammed/.npm/c4c4b299-les-socket-io-node-modules-debug.lock
+518 silly lockFile 740e7b3b-io-node-modules-socket-io-client /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client
+519 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client /home/mohammed/.npm/740e7b3b-io-node-modules-socket-io-client.lock
+520 silly gunzTarPerm modes [ '755', '644' ]
+521 silly gunzTarPerm modes [ '755', '644' ]
+522 silly gunzTarPerm modes [ '755', '644' ]
+523 silly gunzTarPerm modes [ '755', '644' ]
+524 silly gunzTarPerm extractEntry package.json
+525 silly gunzTarPerm extractEntry package.json
+526 silly gunzTarPerm extractEntry package.json
+527 silly gunzTarPerm extractEntry package.json
+528 silly gunzTarPerm extractEntry index.js
+529 silly gunzTarPerm extractEntry binary.js
+530 silly gunzTarPerm extractEntry README.md
+531 silly gunzTarPerm extractEntry LICENSE
+532 silly gunzTarPerm extractEntry .npmignore
+533 silly gunzTarPerm extractEntry LICENSE
+534 silly gunzTarPerm extractEntry README.md
+535 silly gunzTarPerm extractEntry lib/url.js
+536 silly gunzTarPerm extractEntry dist/debug.js
+537 silly gunzTarPerm extractEntry lib/socket.js
+538 silly gunzTarPerm extractEntry src/common.js
+539 silly gunzTarPerm extractEntry lib/manager.js
+540 silly gunzTarPerm extractEntry is-buffer.js
+541 silly gunzTarPerm extractEntry Readme.md
+542 silly gunzTarPerm extractEntry src/index.js
+543 silly gunzTarPerm extractEntry src/browser.js
+544 silly gunzTarPerm extractEntry lib/index.js
+545 silly gunzTarPerm extractEntry lib/on.js
+546 silly gunzTarPerm extractEntry index.js
+547 silly gunzTarPerm extractEntry Readme.md
+548 silly gunzTarPerm extractEntry src/node.js
+549 silly gunzTarPerm extractEntry dist/socket.io.js
+550 silly gunzTarPerm extractEntry dist/socket.io.dev.js
+551 silly gunzTarPerm extractEntry dist/socket.io.slim.js
+552 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js
+553 silly gunzTarPerm extractEntry dist/socket.io.slim.js.map
+554 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter/package.json
+555 silly lockFile 0443c7f2-o-node-modules-socket-io-adapter /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter
+556 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/package.json
+557 info preinstall socket.io-adapter@1.1.1
+558 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter/package.json
+559 silly lockFile a5066a77-io-node-modules-socket-io-parser /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser
+560 silly gunzTarPerm extractEntry dist/socket.io.slim.dev.js.map
+561 info preinstall socket.io-parser@3.3.0
+562 verbose readDependencies using package.json deps
+563 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter/package.json
+564 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/package.json
+565 silly gunzTarPerm extractEntry dist/socket.io.dev.js.map
+566 silly gunzTarPerm extractEntry dist/socket.io.js.map
+567 verbose readDependencies using package.json deps
+568 silly resolved []
+569 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter
+570 info build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter
+571 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-adapter/package.json
+572 verbose readDependencies using package.json deps
+573 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/package.json
+574 verbose linkStuff [ false,
+574 verbose linkStuff   false,
+574 verbose linkStuff   false,
+574 verbose linkStuff   '/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules' ]
+575 info linkStuff socket.io-adapter@1.1.1
+576 verbose linkBins socket.io-adapter@1.1.1
+577 verbose linkMans socket.io-adapter@1.1.1
+578 verbose rebuildBundles socket.io-adapter@1.1.1
+579 info install socket.io-adapter@1.1.1
+580 verbose readDependencies using package.json deps
+581 info postinstall socket.io-adapter@1.1.1
+582 verbose cache add [ 'debug@~3.1.0', null ]
+583 silly cache add name=undefined spec="debug@~3.1.0" args=["debug@~3.1.0",null]
+584 verbose parsed url { pathname: 'debug@~3.1.0',
+584 verbose parsed url   path: 'debug@~3.1.0',
+584 verbose parsed url   href: 'debug@~3.1.0' }
+585 silly cache add name="debug" spec="~3.1.0" args=["debug","~3.1.0"]
+586 verbose parsed url { pathname: '~3.1.0', path: '~3.1.0', href: '~3.1.0' }
+587 verbose addNamed [ 'debug', '~3.1.0' ]
+588 verbose addNamed [ null, '>=3.1.0- <3.2.0-' ]
+589 silly lockFile 426d7f94-debug-3-1-0 debug@~3.1.0
+590 verbose lock debug@~3.1.0 /home/mohammed/.npm/426d7f94-debug-3-1-0.lock
+591 silly addNameRange { name: 'debug', range: '>=3.1.0- <3.2.0-', hasData: false }
+592 verbose url raw debug
+593 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+594 verbose url resolved https://registry.npmjs.org/debug
+595 info trying registry request attempt 1 at 23:26:47
+596 verbose etag "1565ffa7c9ca5ce9f0eda63fa397cdbb"
+597 http GET https://registry.npmjs.org/debug
+598 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug/package.json
+599 silly lockFile c4c4b299-les-socket-io-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug
+600 info preinstall debug@4.1.1
+601 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug/package.json
+602 verbose readDependencies using package.json deps
+603 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug/package.json
+604 verbose readDependencies using package.json deps
+605 verbose cache add [ 'ms@^2.1.1', null ]
+606 silly cache add name=undefined spec="ms@^2.1.1" args=["ms@^2.1.1",null]
+607 verbose parsed url { pathname: 'ms@^2.1.1', path: 'ms@^2.1.1', href: 'ms@^2.1.1' }
+608 silly cache add name="ms" spec="^2.1.1" args=["ms","^2.1.1"]
+609 verbose parsed url { pathname: '^2.1.1', path: '^2.1.1', href: '^2.1.1' }
+610 verbose addNamed [ 'ms', '^2.1.1' ]
+611 verbose addNamed [ null, null ]
+612 silly lockFile 2730e296-ms-2-1-1 ms@^2.1.1
+613 verbose lock ms@^2.1.1 /home/mohammed/.npm/2730e296-ms-2-1-1.lock
+614 info addNameTag [ 'ms', '^2.1.1' ]
+615 verbose url raw ms
+616 verbose url resolving [ 'https://registry.npmjs.org/', './ms' ]
+617 verbose url resolved https://registry.npmjs.org/ms
+618 info trying registry request attempt 1 at 23:26:47
+619 http GET https://registry.npmjs.org/ms
+620 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/package.json
+621 silly lockFile 740e7b3b-io-node-modules-socket-io-client /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client
+622 info preinstall socket.io-client@2.2.0
+623 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/package.json
+624 verbose readDependencies using package.json deps
+625 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/package.json
+626 verbose readDependencies using package.json deps
+627 verbose cache add [ 'debug@~3.1.0', null ]
+628 silly cache add name=undefined spec="debug@~3.1.0" args=["debug@~3.1.0",null]
+629 verbose parsed url { pathname: 'debug@~3.1.0',
+629 verbose parsed url   path: 'debug@~3.1.0',
+629 verbose parsed url   href: 'debug@~3.1.0' }
+630 silly cache add name="debug" spec="~3.1.0" args=["debug","~3.1.0"]
+631 verbose parsed url { pathname: '~3.1.0', path: '~3.1.0', href: '~3.1.0' }
+632 verbose addNamed [ 'debug', '~3.1.0' ]
+633 http 304 https://registry.npmjs.org/debug
+634 silly registry.get cb [ 304,
+634 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:47 GMT',
+634 silly registry.get     connection: 'keep-alive',
+634 silly registry.get     'cf-cache-status': 'HIT',
+634 silly registry.get     'cache-control': 'max-age=300',
+634 silly registry.get     'cf-ray': '4e779fd30b3f5feb-MRS',
+634 silly registry.get     etag: '"1565ffa7c9ca5ce9f0eda63fa397cdbb"',
+634 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+634 silly registry.get     'last-modified': 'Sun, 05 May 2019 08:25:09 GMT',
+634 silly registry.get     vary: 'accept-encoding, accept',
+634 silly registry.get     'x-amz-meta-rev': '903-9586012d9f175d3d08c57e4354fe1884',
+634 silly registry.get     server: 'cloudflare' } ]
+635 verbose etag debug from cache
+636 silly addNameRange number 2 { name: 'debug', range: '>=3.1.0- <3.2.0-', hasData: true }
+637 silly addNameRange versions [ 'debug',
+637 silly addNameRange   [ '0.0.1',
+637 silly addNameRange     '0.1.0',
+637 silly addNameRange     '0.2.0',
+637 silly addNameRange     '0.3.0',
+637 silly addNameRange     '0.4.0',
+637 silly addNameRange     '0.4.1',
+637 silly addNameRange     '0.5.0',
+637 silly addNameRange     '0.6.0',
+637 silly addNameRange     '0.7.0',
+637 silly addNameRange     '0.7.1',
+637 silly addNameRange     '0.7.2',
+637 silly addNameRange     '0.7.3',
+637 silly addNameRange     '0.7.4',
+637 silly addNameRange     '0.8.0',
+637 silly addNameRange     '0.8.1',
+637 silly addNameRange     '1.0.0',
+637 silly addNameRange     '1.0.1',
+637 silly addNameRange     '1.0.2',
+637 silly addNameRange     '1.0.3',
+637 silly addNameRange     '1.0.4',
+637 silly addNameRange     '2.0.0',
+637 silly addNameRange     '2.1.0',
+637 silly addNameRange     '2.1.1',
+637 silly addNameRange     '2.1.2',
+637 silly addNameRange     '2.1.3',
+637 silly addNameRange     '2.2.0',
+637 silly addNameRange     '2.3.0',
+637 silly addNameRange     '2.3.1',
+637 silly addNameRange     '2.3.2',
+637 silly addNameRange     '2.3.3',
+637 silly addNameRange     '2.4.0',
+637 silly addNameRange     '2.4.1',
+637 silly addNameRange     '2.4.2',
+637 silly addNameRange     '2.4.3',
+637 silly addNameRange     '2.4.4',
+637 silly addNameRange     '2.4.5',
+637 silly addNameRange     '2.5.0',
+637 silly addNameRange     '2.5.1',
+637 silly addNameRange     '2.5.2',
+637 silly addNameRange     '2.6.0',
+637 silly addNameRange     '2.6.1',
+637 silly addNameRange     '2.6.2',
+637 silly addNameRange     '2.6.3',
+637 silly addNameRange     '2.6.4',
+637 silly addNameRange     '2.6.5',
+637 silly addNameRange     '2.6.6',
+637 silly addNameRange     '2.6.7',
+637 silly addNameRange     '2.6.8',
+637 silly addNameRange     '1.0.5',
+637 silly addNameRange     '3.0.0',
+637 silly addNameRange     '3.0.1',
+637 silly addNameRange     '2.6.9',
+637 silly addNameRange     '3.1.0',
+637 silly addNameRange     '3.2.0',
+637 silly addNameRange     '3.2.1',
+637 silly addNameRange     '3.2.2',
+637 silly addNameRange     '3.2.3',
+637 silly addNameRange     '4.0.0',
+637 silly addNameRange     '3.2.4',
+637 silly addNameRange     '3.2.5',
+637 silly addNameRange     '4.0.1',
+637 silly addNameRange     '4.1.0',
+637 silly addNameRange     '3.2.6',
+637 silly addNameRange     '4.1.1' ] ]
+638 verbose addNamed [ 'debug', '3.1.0' ]
+639 verbose addNamed [ '3.1.0', '3.1.0' ]
+640 silly lockFile 2f757b25-debug-3-1-0 debug@3.1.0
+641 verbose lock debug@3.1.0 /home/mohammed/.npm/2f757b25-debug-3-1-0.lock
+642 silly lockFile 8e8c41db--npmjs-org-debug-debug-3-1-0-tgz https://registry.npmjs.org/debug/-/debug-3.1.0.tgz
+643 verbose lock https://registry.npmjs.org/debug/-/debug-3.1.0.tgz /home/mohammed/.npm/8e8c41db--npmjs-org-debug-debug-3-1-0-tgz.lock
+644 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-3.1.0.tgz',
+644 verbose addRemoteTarball   '5bb5a0672628b64149566ba16819e61518c67261' ]
+645 info retry fetch attempt 1 at 23:26:47
+646 verbose fetch to= /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/tmp.tgz
+647 http GET https://registry.npmjs.org/debug/-/debug-3.1.0.tgz
+648 http 200 https://registry.npmjs.org/debug/-/debug-3.1.0.tgz
+649 silly shasum updated bytes 17183
+650 info shasum 5bb5a0672628b64149566ba16819e61518c67261
+650 info shasum /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/tmp.tgz
+651 verbose tar unpack /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/tmp.tgz
+652 silly lockFile cb6d35f4-584-0-037664890522137284-package /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package
+653 verbose lock /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package /home/mohammed/.npm/cb6d35f4-584-0-037664890522137284-package.lock
+654 silly gunzTarPerm modes [ '755', '644' ]
+655 silly gunzTarPerm extractEntry package.json
+656 silly gunzTarPerm extractEntry .npmignore
+657 silly gunzTarPerm extractEntry README.md
+658 silly gunzTarPerm extractEntry LICENSE
+659 silly gunzTarPerm extractEntry karma.conf.js
+660 silly gunzTarPerm extractEntry node.js
+661 silly gunzTarPerm extractEntry .eslintrc
+662 silly gunzTarPerm extractEntry Makefile
+663 silly gunzTarPerm extractEntry .coveralls.yml
+664 silly gunzTarPerm extractEntry .travis.yml
+665 silly gunzTarPerm extractEntry CHANGELOG.md
+666 silly gunzTarPerm extractEntry src/browser.js
+667 silly gunzTarPerm extractEntry src/debug.js
+668 silly gunzTarPerm extractEntry src/index.js
+669 silly gunzTarPerm extractEntry src/node.js
+670 verbose read json /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package/package.json
+671 silly lockFile cb6d35f4-584-0-037664890522137284-package /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package
+672 verbose from cache /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package/package.json
+673 verbose tar pack [ '/home/mohammed/.npm/debug/3.1.0/package.tgz',
+673 verbose tar pack   '/home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package' ]
+674 verbose tarball /home/mohammed/.npm/debug/3.1.0/package.tgz
+675 verbose folder /home/mohammed/tmp/npm-4136/1560634007584-0.037664890522137284/package
+676 silly lockFile 71e586cd-mmed-npm-debug-3-1-0-package-tgz /home/mohammed/.npm/debug/3.1.0/package.tgz
+677 verbose lock /home/mohammed/.npm/debug/3.1.0/package.tgz /home/mohammed/.npm/71e586cd-mmed-npm-debug-3-1-0-package-tgz.lock
+678 silly lockFile 71e586cd-mmed-npm-debug-3-1-0-package-tgz /home/mohammed/.npm/debug/3.1.0/package.tgz
+679 silly lockFile 56041751-mohammed-npm-debug-3-1-0-package /home/mohammed/.npm/debug/3.1.0/package
+680 verbose lock /home/mohammed/.npm/debug/3.1.0/package /home/mohammed/.npm/56041751-mohammed-npm-debug-3-1-0-package.lock
+681 silly lockFile 56041751-mohammed-npm-debug-3-1-0-package /home/mohammed/.npm/debug/3.1.0/package
+682 verbose tar unpack /home/mohammed/.npm/debug/3.1.0/package.tgz
+683 silly lockFile 56041751-mohammed-npm-debug-3-1-0-package /home/mohammed/.npm/debug/3.1.0/package
+684 verbose lock /home/mohammed/.npm/debug/3.1.0/package /home/mohammed/.npm/56041751-mohammed-npm-debug-3-1-0-package.lock
+685 silly gunzTarPerm modes [ '755', '644' ]
+686 silly gunzTarPerm extractEntry package.json
+687 silly gunzTarPerm extractEntry .npmignore
+688 silly gunzTarPerm extractEntry README.md
+689 silly gunzTarPerm extractEntry LICENSE
+690 silly gunzTarPerm extractEntry karma.conf.js
+691 silly gunzTarPerm extractEntry node.js
+692 silly gunzTarPerm extractEntry .coveralls.yml
+693 silly gunzTarPerm extractEntry Makefile
+694 silly gunzTarPerm extractEntry src/index.js
+695 silly gunzTarPerm extractEntry src/browser.js
+696 silly gunzTarPerm extractEntry src/debug.js
+697 silly gunzTarPerm extractEntry src/node.js
+698 silly gunzTarPerm extractEntry CHANGELOG.md
+699 silly gunzTarPerm extractEntry .travis.yml
+700 silly gunzTarPerm extractEntry .eslintrc
+701 verbose read json /home/mohammed/.npm/debug/3.1.0/package/package.json
+702 silly lockFile 56041751-mohammed-npm-debug-3-1-0-package /home/mohammed/.npm/debug/3.1.0/package
+703 silly shasum updated bytes 17242
+704 info shasum 13c3dcbb2ed2372b5a51c992412b65b26678bd5a
+704 info shasum /home/mohammed/.npm/debug/3.1.0/package.tgz
+705 verbose from cache /home/mohammed/.npm/debug/3.1.0/package/package.json
+706 verbose chmod /home/mohammed/.npm/debug/3.1.0/package.tgz 644
+707 verbose chown /home/mohammed/.npm/debug/3.1.0/package.tgz [ 1000, 1000 ]
+708 silly lockFile 8e8c41db--npmjs-org-debug-debug-3-1-0-tgz https://registry.npmjs.org/debug/-/debug-3.1.0.tgz
+709 silly lockFile 2f757b25-debug-3-1-0 debug@3.1.0
+710 silly lockFile 426d7f94-debug-3-1-0 debug@~3.1.0
+711 silly resolved [ { name: 'debug',
+711 silly resolved     version: '3.1.0',
+711 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+711 silly resolved     description: 'small debugging utility',
+711 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+711 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+711 silly resolved     contributors: [ [Object], [Object] ],
+711 silly resolved     license: 'MIT',
+711 silly resolved     dependencies: { ms: '2.0.0' },
+711 silly resolved     devDependencies:
+711 silly resolved      { browserify: '14.4.0',
+711 silly resolved        chai: '^3.5.0',
+711 silly resolved        concurrently: '^3.1.0',
+711 silly resolved        coveralls: '^2.11.15',
+711 silly resolved        eslint: '^3.12.1',
+711 silly resolved        istanbul: '^0.4.5',
+711 silly resolved        karma: '^1.3.0',
+711 silly resolved        'karma-chai': '^0.1.0',
+711 silly resolved        'karma-mocha': '^1.3.0',
+711 silly resolved        'karma-phantomjs-launcher': '^1.0.2',
+711 silly resolved        'karma-sinon': '^1.0.5',
+711 silly resolved        mocha: '^3.2.0',
+711 silly resolved        'mocha-lcov-reporter': '^1.2.0',
+711 silly resolved        rimraf: '^2.5.4',
+711 silly resolved        sinon: '^1.17.6',
+711 silly resolved        'sinon-chai': '^2.8.0' },
+711 silly resolved     main: './src/index.js',
+711 silly resolved     browser: './src/browser.js',
+711 silly resolved     readme: '# debug\n[![Build Status](https://travis-ci.org/visionmedia/debug.svg?branch=master)](https://travis-ci.org/visionmedia/debug)  [![Coverage Status](https://coveralls.io/repos/github/visionmedia/debug/badge.svg?branch=master)](https://coveralls.io/github/visionmedia/debug?branch=master)  [![Slack](https://visionmedia-community-slackin.now.sh/badge.svg)](https://visionmedia-community-slackin.now.sh/) [![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)\n[![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nA tiny JavaScript debugging utility modelled after Node.js core\'s debugging\ntechnique. Works in Node.js and web browsers.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n`debug` exposes a function; simply pass this function the name of your module, and it will return a decorated version of `console.error` for you to pass debug statements to. This will allow you to toggle the debug output for different parts of your module as well as the module as a whole.\n\nExample [_app.js_](./examples/node/app.js):\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %o\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample [_worker.js_](./examples/node/worker.js):\n\n```js\nvar a = require(\'debug\')(\'worker:a\')\n  , b = require(\'debug\')(\'worker:b\');\n\nfunction work() {\n  a(\'doing lots of uninteresting work\');\n  setTimeout(work, Math.random() * 1000);\n}\n\nwork();\n\nfunction workb() {\n  b(\'doing some work\');\n  setTimeout(workb, Math.random() * 2000);\n}\n\nworkb();\n```\n\nThe `DEBUG` environment variable is then used to enable these based on space or\ncomma-delimited names.\n\nHere are some examples:\n\n<img width="647" alt="screen shot 2017-08-08 at 12 53 04 pm" src="https://user-images.githubusercontent.com/71256/29091703-a6302cdc-7c38-11e7-8304-7c0b3bc600cd.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 38 pm" src="https://user-images.githubusercontent.com/71256/29091700-a62a6888-7c38-11e7-800b-db911291ca2b.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 25 pm" src="https://user-images.githubusercontent.com/71256/29091701-a62ea114-7c38-11e7-826a-2692bedca740.png">\n\n#### Windows note\n\nOn Windows the environment variable is set using the `set` command.\n\n```cmd\nset DEBUG=*,-not_this\n```\n\nNote that PowerShell uses different syntax to set environment variables.\n\n```cmd\n$env:DEBUG = "*,-not_this"\n```\n\nThen, run the program to be debugged as usual.\n\n\n## Namespace Colors\n\nEvery debug instance has a color generated for it based on its namespace name.\nThis helps when visually parsing the debug output to identify which debug instance\na debug line belongs to.\n\n#### Node.js\n\nIn Node.js, colors are enabled when stderr is a TTY. You also _should_ install\nthe [`supports-color`](https://npmjs.org/supports-color) module alongside debug,\notherwise debug will only use a small handful of basic colors.\n\n<img width="521" src="https://user-images.githubusercontent.com/71256/29092181-47f6a9e6-7c3a-11e7-9a14-1928d8a711cd.png">\n\n#### Web Browser\n\nColors are also enabled on "Web Inspectors" that understand the `%c` formatting\noption. These are WebKit web inspectors, Firefox ([since version\n31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\nand the Firebug plugin for Firefox (any version).\n\n<img width="524" src="https://user-images.githubusercontent.com/71256/29092033-b65f9f2e-7c39-11e7-8e32-f6f0d8e865c1.png">\n\n\n## Millisecond diff\n\nWhen actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nWhen stdout is not a TTY, `Date#toISOString()` is used, making it more useful for logging the debug information as shown below:\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091956-6bd78372-7c39-11e7-8c55-c948396d6edd.png">\n\n\n## Conventions\n\nIf you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".  If you append a "*" to the end of your name, it will always be enabled regardless of the setting of the DEBUG environment variable.  You can then use it for normal output as well as debug output.\n\n## Wildcards\n\nThe `*` character may be used as a wildcard. Suppose for example your library has\ndebuggers named "connect:bodyParser", "connect:compress", "connect:session",\ninstead of listing all three with\n`DEBUG=connect:bodyParser,connect:compress,connect:session`, you may simply do\n`DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\nYou can also exclude specific debuggers by prefixing them with a "-" character.\nFor example, `DEBUG=*,-connect:*` would include all debuggers except those\nstarting with "connect:".\n\n## Environment Variables\n\nWhen running through Node.js, you can set a few environment variables that will\nchange the behavior of the debug logging:\n\n| Name      | Purpose                                         |\n|-----------|-------------------------------------------------|\n| `DEBUG`   | Enables/disables specific debugging namespaces. |\n| `DEBUG_HIDE_DATE` | Hide date from debug output (non-TTY).  |\n| `DEBUG_COLORS`| Whether or not to use colors in the debug output. |\n| `DEBUG_DEPTH` | Object inspection depth.                    |\n| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |\n\n\n__Note:__ The environment variables beginning with `DEBUG_` end up being\nconverted into an Options object that gets used with `%o`/`%O` formatters.\nSee the Node.js documentation for\n[`util.inspect()`](https://nodejs.org/api/util.html#util_util_inspect_object_options)\nfor the complete list.\n\n## Formatters\n\nDebug uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting.\nBelow are the officially supported formatters:\n\n| Formatter | Representation |\n|-----------|----------------|\n| `%O`      | Pretty-print an Object on multiple lines. |\n| `%o`      | Pretty-print an Object all on a single line. |\n| `%s`      | String. |\n| `%d`      | Number (both integer and float). |\n| `%j`      | JSON. Replaced with the string \'[Circular]\' if the argument contains circular references. |\n| `%%`      | Single percent sign (\'%\'). This does not consume an argument. |\n\n\n### Custom formatters\n\nYou can add custom formatters by extending the `debug.formatters` object.\nFor example, if you wanted to add support for rendering a Buffer as hex with\n`%h`, you could do something like:\n\n```js\nconst createDebug = require(\'debug\')\ncreateDebug.formatters.h = (v) => {\n  return v.toString(\'hex\')\n}\n\n// …elsewhere\nconst debug = createDebug(\'foo\')\ndebug(\'this is hex: %h\', new Buffer(\'hello world\'))\n//   foo this is hex: 68656c6c6f20776f726c6421 +0ms\n```\n\n\n## Browser Support\n\nYou can build a browser-ready script using [browserify](https://github.com/substack/node-browserify),\nor just use the [browserify-as-a-service](https://wzrd.in/) [build](https://wzrd.in/standalone/debug@latest),\nif you don\'t want to build it yourself.\n\nDebug\'s enable state is currently persisted by `localStorage`.\nConsider the situation shown below where you have `worker:a` and `worker:b`,\nand wish to debug both. You can enable this using `localStorage.debug`:\n\n```js\nlocalStorage.debug = \'worker:*\'\n```\n\nAnd then refresh the page.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n\n## Output streams\n\n  By default `debug` will log to stderr, however this can be configured per-namespace by overriding the `log` method:\n\nExample [_stdout.js_](./examples/node/stdout.js):\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n## Checking whether a debug target is enabled\n\nAfter you\'ve created a debug instance, you can determine whether or not it is\nenabled by checking the `enabled` property:\n\n```javascript\nconst debug = require(\'debug\')(\'http\');\n\nif (debug.enabled) {\n  // do stuff...\n}\n```\n\nYou can also manually toggle this property to force the debug instance to be\nenabled or disabled.\n\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n - Andrew Rhyne\n\n## Backers\n\nSupport us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/debug#backer)]\n\n<a href="https://opencollective.com/debug/backer/0/website" target="_blank"><img src="https://opencollective.com/debug/backer/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/1/website" target="_blank"><img src="https://opencollective.com/debug/backer/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/2/website" target="_blank"><img src="https://opencollective.com/debug/backer/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/3/website" target="_blank"><img src="https://opencollective.com/debug/backer/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/4/website" target="_blank"><img src="https://opencollective.com/debug/backer/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/5/website" target="_blank"><img src="https://opencollective.com/debug/backer/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/6/website" target="_blank"><img src="https://opencollective.com/debug/backer/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/7/website" target="_blank"><img src="https://opencollective.com/debug/backer/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/8/website" target="_blank"><img src="https://opencollective.com/debug/backer/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/9/website" target="_blank"><img src="https://opencollective.com/debug/backer/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/10/website" target="_blank"><img src="https://opencollective.com/debug/backer/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/11/website" target="_blank"><img src="https://opencollective.com/debug/backer/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/12/website" target="_blank"><img src="https://opencollective.com/debug/backer/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/13/website" target="_blank"><img src="https://opencollective.com/debug/backer/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/14/website" target="_blank"><img src="https://opencollective.com/debug/backer/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/15/website" target="_blank"><img src="https://opencollective.com/debug/backer/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/16/website" target="_blank"><img src="https://opencollective.com/debug/backer/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/17/website" target="_blank"><img src="https://opencollective.com/debug/backer/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/18/website" target="_blank"><img src="https://opencollective.com/debug/backer/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/19/website" target="_blank"><img src="https://opencollective.com/debug/backer/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/20/website" target="_blank"><img src="https://opencollective.com/debug/backer/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/21/website" target="_blank"><img src="https://opencollective.com/debug/backer/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/22/website" target="_blank"><img src="https://opencollective.com/debug/backer/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/23/website" target="_blank"><img src="https://opencollective.com/debug/backer/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/24/website" target="_blank"><img src="https://opencollective.com/debug/backer/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/25/website" target="_blank"><img src="https://opencollective.com/debug/backer/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/26/website" target="_blank"><img src="https://opencollective.com/debug/backer/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/27/website" target="_blank"><img src="https://opencollective.com/debug/backer/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/28/website" target="_blank"><img src="https://opencollective.com/debug/backer/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/29/website" target="_blank"><img src="https://opencollective.com/debug/backer/29/avatar.svg"></a>\n\n\n## Sponsors\n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/debug#sponsor)]\n\n<a href="https://opencollective.com/debug/sponsor/0/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/1/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/2/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/3/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/4/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/5/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/6/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/7/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/8/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/9/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/10/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/11/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/12/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/13/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/14/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/15/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/16/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/17/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/18/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/19/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/20/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/21/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/22/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/23/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/24/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/25/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/26/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/27/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/28/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/29/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/29/avatar.svg"></a>\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014-2017 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+711 silly resolved     readmeFilename: 'README.md',
+711 silly resolved     _id: 'debug@3.1.0',
+711 silly resolved     dist: { shasum: '13c3dcbb2ed2372b5a51c992412b65b26678bd5a' },
+711 silly resolved     _from: 'debug@~3.1.0' } ]
+712 info install debug@3.1.0 into /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser
+713 info installOne debug@3.1.0
+714 silly resolved [ { name: 'debug',
+714 silly resolved     version: '3.1.0',
+714 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+714 silly resolved     description: 'small debugging utility',
+714 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+714 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+714 silly resolved     contributors: [ [Object], [Object] ],
+714 silly resolved     license: 'MIT',
+714 silly resolved     dependencies: { ms: '2.0.0' },
+714 silly resolved     devDependencies:
+714 silly resolved      { browserify: '14.4.0',
+714 silly resolved        chai: '^3.5.0',
+714 silly resolved        concurrently: '^3.1.0',
+714 silly resolved        coveralls: '^2.11.15',
+714 silly resolved        eslint: '^3.12.1',
+714 silly resolved        istanbul: '^0.4.5',
+714 silly resolved        karma: '^1.3.0',
+714 silly resolved        'karma-chai': '^0.1.0',
+714 silly resolved        'karma-mocha': '^1.3.0',
+714 silly resolved        'karma-phantomjs-launcher': '^1.0.2',
+714 silly resolved        'karma-sinon': '^1.0.5',
+714 silly resolved        mocha: '^3.2.0',
+714 silly resolved        'mocha-lcov-reporter': '^1.2.0',
+714 silly resolved        rimraf: '^2.5.4',
+714 silly resolved        sinon: '^1.17.6',
+714 silly resolved        'sinon-chai': '^2.8.0' },
+714 silly resolved     main: './src/index.js',
+714 silly resolved     browser: './src/browser.js',
+714 silly resolved     readme: '# debug\n[![Build Status](https://travis-ci.org/visionmedia/debug.svg?branch=master)](https://travis-ci.org/visionmedia/debug)  [![Coverage Status](https://coveralls.io/repos/github/visionmedia/debug/badge.svg?branch=master)](https://coveralls.io/github/visionmedia/debug?branch=master)  [![Slack](https://visionmedia-community-slackin.now.sh/badge.svg)](https://visionmedia-community-slackin.now.sh/) [![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)\n[![OpenCollective](https://opencollective.com/debug/sponsors/badge.svg)](#sponsors)\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nA tiny JavaScript debugging utility modelled after Node.js core\'s debugging\ntechnique. Works in Node.js and web browsers.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n`debug` exposes a function; simply pass this function the name of your module, and it will return a decorated version of `console.error` for you to pass debug statements to. This will allow you to toggle the debug output for different parts of your module as well as the module as a whole.\n\nExample [_app.js_](./examples/node/app.js):\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %o\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample [_worker.js_](./examples/node/worker.js):\n\n```js\nvar a = require(\'debug\')(\'worker:a\')\n  , b = require(\'debug\')(\'worker:b\');\n\nfunction work() {\n  a(\'doing lots of uninteresting work\');\n  setTimeout(work, Math.random() * 1000);\n}\n\nwork();\n\nfunction workb() {\n  b(\'doing some work\');\n  setTimeout(workb, Math.random() * 2000);\n}\n\nworkb();\n```\n\nThe `DEBUG` environment variable is then used to enable these based on space or\ncomma-delimited names.\n\nHere are some examples:\n\n<img width="647" alt="screen shot 2017-08-08 at 12 53 04 pm" src="https://user-images.githubusercontent.com/71256/29091703-a6302cdc-7c38-11e7-8304-7c0b3bc600cd.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 38 pm" src="https://user-images.githubusercontent.com/71256/29091700-a62a6888-7c38-11e7-800b-db911291ca2b.png">\n<img width="647" alt="screen shot 2017-08-08 at 12 53 25 pm" src="https://user-images.githubusercontent.com/71256/29091701-a62ea114-7c38-11e7-826a-2692bedca740.png">\n\n#### Windows note\n\nOn Windows the environment variable is set using the `set` command.\n\n```cmd\nset DEBUG=*,-not_this\n```\n\nNote that PowerShell uses different syntax to set environment variables.\n\n```cmd\n$env:DEBUG = "*,-not_this"\n```\n\nThen, run the program to be debugged as usual.\n\n\n## Namespace Colors\n\nEvery debug instance has a color generated for it based on its namespace name.\nThis helps when visually parsing the debug output to identify which debug instance\na debug line belongs to.\n\n#### Node.js\n\nIn Node.js, colors are enabled when stderr is a TTY. You also _should_ install\nthe [`supports-color`](https://npmjs.org/supports-color) module alongside debug,\notherwise debug will only use a small handful of basic colors.\n\n<img width="521" src="https://user-images.githubusercontent.com/71256/29092181-47f6a9e6-7c3a-11e7-9a14-1928d8a711cd.png">\n\n#### Web Browser\n\nColors are also enabled on "Web Inspectors" that understand the `%c` formatting\noption. These are WebKit web inspectors, Firefox ([since version\n31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\nand the Firebug plugin for Firefox (any version).\n\n<img width="524" src="https://user-images.githubusercontent.com/71256/29092033-b65f9f2e-7c39-11e7-8e32-f6f0d8e865c1.png">\n\n\n## Millisecond diff\n\nWhen actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091486-fa38524c-7c37-11e7-895f-e7ec8e1039b6.png">\n\nWhen stdout is not a TTY, `Date#toISOString()` is used, making it more useful for logging the debug information as shown below:\n\n<img width="647" src="https://user-images.githubusercontent.com/71256/29091956-6bd78372-7c39-11e7-8c55-c948396d6edd.png">\n\n\n## Conventions\n\nIf you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".  If you append a "*" to the end of your name, it will always be enabled regardless of the setting of the DEBUG environment variable.  You can then use it for normal output as well as debug output.\n\n## Wildcards\n\nThe `*` character may be used as a wildcard. Suppose for example your library has\ndebuggers named "connect:bodyParser", "connect:compress", "connect:session",\ninstead of listing all three with\n`DEBUG=connect:bodyParser,connect:compress,connect:session`, you may simply do\n`DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\nYou can also exclude specific debuggers by prefixing them with a "-" character.\nFor example, `DEBUG=*,-connect:*` would include all debuggers except those\nstarting with "connect:".\n\n## Environment Variables\n\nWhen running through Node.js, you can set a few environment variables that will\nchange the behavior of the debug logging:\n\n| Name      | Purpose                                         |\n|-----------|-------------------------------------------------|\n| `DEBUG`   | Enables/disables specific debugging namespaces. |\n| `DEBUG_HIDE_DATE` | Hide date from debug output (non-TTY).  |\n| `DEBUG_COLORS`| Whether or not to use colors in the debug output. |\n| `DEBUG_DEPTH` | Object inspection depth.                    |\n| `DEBUG_SHOW_HIDDEN` | Shows hidden properties on inspected objects. |\n\n\n__Note:__ The environment variables beginning with `DEBUG_` end up being\nconverted into an Options object that gets used with `%o`/`%O` formatters.\nSee the Node.js documentation for\n[`util.inspect()`](https://nodejs.org/api/util.html#util_util_inspect_object_options)\nfor the complete list.\n\n## Formatters\n\nDebug uses [printf-style](https://wikipedia.org/wiki/Printf_format_string) formatting.\nBelow are the officially supported formatters:\n\n| Formatter | Representation |\n|-----------|----------------|\n| `%O`      | Pretty-print an Object on multiple lines. |\n| `%o`      | Pretty-print an Object all on a single line. |\n| `%s`      | String. |\n| `%d`      | Number (both integer and float). |\n| `%j`      | JSON. Replaced with the string \'[Circular]\' if the argument contains circular references. |\n| `%%`      | Single percent sign (\'%\'). This does not consume an argument. |\n\n\n### Custom formatters\n\nYou can add custom formatters by extending the `debug.formatters` object.\nFor example, if you wanted to add support for rendering a Buffer as hex with\n`%h`, you could do something like:\n\n```js\nconst createDebug = require(\'debug\')\ncreateDebug.formatters.h = (v) => {\n  return v.toString(\'hex\')\n}\n\n// …elsewhere\nconst debug = createDebug(\'foo\')\ndebug(\'this is hex: %h\', new Buffer(\'hello world\'))\n//   foo this is hex: 68656c6c6f20776f726c6421 +0ms\n```\n\n\n## Browser Support\n\nYou can build a browser-ready script using [browserify](https://github.com/substack/node-browserify),\nor just use the [browserify-as-a-service](https://wzrd.in/) [build](https://wzrd.in/standalone/debug@latest),\nif you don\'t want to build it yourself.\n\nDebug\'s enable state is currently persisted by `localStorage`.\nConsider the situation shown below where you have `worker:a` and `worker:b`,\nand wish to debug both. You can enable this using `localStorage.debug`:\n\n```js\nlocalStorage.debug = \'worker:*\'\n```\n\nAnd then refresh the page.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n\n## Output streams\n\n  By default `debug` will log to stderr, however this can be configured per-namespace by overriding the `log` method:\n\nExample [_stdout.js_](./examples/node/stdout.js):\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n## Checking whether a debug target is enabled\n\nAfter you\'ve created a debug instance, you can determine whether or not it is\nenabled by checking the `enabled` property:\n\n```javascript\nconst debug = require(\'debug\')(\'http\');\n\nif (debug.enabled) {\n  // do stuff...\n}\n```\n\nYou can also manually toggle this property to force the debug instance to be\nenabled or disabled.\n\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n - Andrew Rhyne\n\n## Backers\n\nSupport us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/debug#backer)]\n\n<a href="https://opencollective.com/debug/backer/0/website" target="_blank"><img src="https://opencollective.com/debug/backer/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/1/website" target="_blank"><img src="https://opencollective.com/debug/backer/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/2/website" target="_blank"><img src="https://opencollective.com/debug/backer/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/3/website" target="_blank"><img src="https://opencollective.com/debug/backer/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/4/website" target="_blank"><img src="https://opencollective.com/debug/backer/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/5/website" target="_blank"><img src="https://opencollective.com/debug/backer/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/6/website" target="_blank"><img src="https://opencollective.com/debug/backer/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/7/website" target="_blank"><img src="https://opencollective.com/debug/backer/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/8/website" target="_blank"><img src="https://opencollective.com/debug/backer/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/9/website" target="_blank"><img src="https://opencollective.com/debug/backer/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/10/website" target="_blank"><img src="https://opencollective.com/debug/backer/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/11/website" target="_blank"><img src="https://opencollective.com/debug/backer/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/12/website" target="_blank"><img src="https://opencollective.com/debug/backer/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/13/website" target="_blank"><img src="https://opencollective.com/debug/backer/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/14/website" target="_blank"><img src="https://opencollective.com/debug/backer/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/15/website" target="_blank"><img src="https://opencollective.com/debug/backer/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/16/website" target="_blank"><img src="https://opencollective.com/debug/backer/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/17/website" target="_blank"><img src="https://opencollective.com/debug/backer/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/18/website" target="_blank"><img src="https://opencollective.com/debug/backer/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/19/website" target="_blank"><img src="https://opencollective.com/debug/backer/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/20/website" target="_blank"><img src="https://opencollective.com/debug/backer/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/21/website" target="_blank"><img src="https://opencollective.com/debug/backer/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/22/website" target="_blank"><img src="https://opencollective.com/debug/backer/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/23/website" target="_blank"><img src="https://opencollective.com/debug/backer/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/24/website" target="_blank"><img src="https://opencollective.com/debug/backer/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/25/website" target="_blank"><img src="https://opencollective.com/debug/backer/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/26/website" target="_blank"><img src="https://opencollective.com/debug/backer/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/27/website" target="_blank"><img src="https://opencollective.com/debug/backer/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/28/website" target="_blank"><img src="https://opencollective.com/debug/backer/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/backer/29/website" target="_blank"><img src="https://opencollective.com/debug/backer/29/avatar.svg"></a>\n\n\n## Sponsors\n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/debug#sponsor)]\n\n<a href="https://opencollective.com/debug/sponsor/0/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/0/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/1/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/1/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/2/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/2/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/3/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/3/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/4/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/4/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/5/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/5/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/6/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/6/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/7/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/7/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/8/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/8/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/9/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/9/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/10/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/10/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/11/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/11/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/12/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/12/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/13/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/13/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/14/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/14/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/15/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/15/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/16/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/16/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/17/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/17/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/18/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/18/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/19/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/19/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/20/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/20/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/21/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/21/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/22/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/22/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/23/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/23/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/24/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/24/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/25/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/25/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/26/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/26/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/27/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/27/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/28/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/28/avatar.svg"></a>\n<a href="https://opencollective.com/debug/sponsor/29/website" target="_blank"><img src="https://opencollective.com/debug/sponsor/29/avatar.svg"></a>\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014-2017 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+714 silly resolved     readmeFilename: 'README.md',
+714 silly resolved     _id: 'debug@3.1.0',
+714 silly resolved     dist: { shasum: '13c3dcbb2ed2372b5a51c992412b65b26678bd5a' },
+714 silly resolved     _from: 'debug@~3.1.0' } ]
+715 info install debug@3.1.0 into /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client
+716 info installOne debug@3.1.0
+717 verbose from cache /home/mohammed/.npm/debug/3.1.0/package/package.json
+718 verbose from cache /home/mohammed/.npm/debug/3.1.0/package/package.json
+719 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug unbuild
+720 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug/package.json
+721 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug unbuild
+722 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug/package.json
+723 verbose tar unpack /home/mohammed/.npm/debug/3.1.0/package.tgz
+724 verbose tar unpack /home/mohammed/.npm/debug/3.1.0/package.tgz
+725 silly lockFile 3d2e6b7e-ket-io-parser-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug
+726 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug /home/mohammed/.npm/3d2e6b7e-ket-io-parser-node-modules-debug.lock
+727 silly lockFile c27a660a-ket-io-client-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug
+728 verbose lock /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug /home/mohammed/.npm/c27a660a-ket-io-client-node-modules-debug.lock
+729 silly gunzTarPerm modes [ '755', '644' ]
+730 silly gunzTarPerm modes [ '755', '644' ]
+731 silly gunzTarPerm extractEntry package.json
+732 silly gunzTarPerm extractEntry package.json
+733 silly gunzTarPerm extractEntry .npmignore
+734 silly gunzTarPerm extractEntry README.md
+735 silly gunzTarPerm extractEntry .npmignore
+736 silly gunzTarPerm extractEntry README.md
+737 silly gunzTarPerm extractEntry LICENSE
+738 silly gunzTarPerm extractEntry karma.conf.js
+739 silly gunzTarPerm extractEntry LICENSE
+740 silly gunzTarPerm extractEntry karma.conf.js
+741 silly gunzTarPerm extractEntry node.js
+742 silly gunzTarPerm extractEntry .coveralls.yml
+743 silly gunzTarPerm extractEntry Makefile
+744 silly gunzTarPerm extractEntry src/index.js
+745 silly gunzTarPerm extractEntry src/browser.js
+746 silly gunzTarPerm extractEntry src/debug.js
+747 silly gunzTarPerm extractEntry node.js
+748 silly gunzTarPerm extractEntry .coveralls.yml
+749 silly gunzTarPerm extractEntry src/node.js
+750 silly gunzTarPerm extractEntry CHANGELOG.md
+751 silly gunzTarPerm extractEntry Makefile
+752 silly gunzTarPerm extractEntry .travis.yml
+753 silly gunzTarPerm extractEntry src/index.js
+754 silly gunzTarPerm extractEntry .eslintrc
+755 silly gunzTarPerm extractEntry src/browser.js
+756 silly gunzTarPerm extractEntry src/debug.js
+757 silly gunzTarPerm extractEntry src/node.js
+758 silly gunzTarPerm extractEntry CHANGELOG.md
+759 silly gunzTarPerm extractEntry .travis.yml
+760 silly gunzTarPerm extractEntry .eslintrc
+761 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug/package.json
+762 silly lockFile 3d2e6b7e-ket-io-parser-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug
+763 info preinstall debug@3.1.0
+764 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug/package.json
+765 verbose readDependencies using package.json deps
+766 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug/package.json
+767 verbose readDependencies using package.json deps
+768 silly resolved []
+769 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug
+770 info build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug
+771 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules/debug/package.json
+772 verbose linkStuff [ false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   false,
+772 verbose linkStuff   '/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/node_modules' ]
+773 info linkStuff debug@3.1.0
+774 verbose linkBins debug@3.1.0
+775 verbose linkMans debug@3.1.0
+776 verbose rebuildBundles debug@3.1.0
+777 info install debug@3.1.0
+778 info postinstall debug@3.1.0
+779 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser
+780 info build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser
+781 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-parser/package.json
+782 verbose linkStuff [ false,
+782 verbose linkStuff   false,
+782 verbose linkStuff   false,
+782 verbose linkStuff   '/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules' ]
+783 info linkStuff socket.io-parser@3.3.0
+784 verbose linkBins socket.io-parser@3.3.0
+785 verbose linkMans socket.io-parser@3.3.0
+786 verbose rebuildBundles socket.io-parser@3.3.0
+787 verbose rebuildBundles [ 'debug' ]
+788 info install socket.io-parser@3.3.0
+789 info postinstall socket.io-parser@3.3.0
+790 verbose read json /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug/package.json
+791 silly lockFile c27a660a-ket-io-client-node-modules-debug /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug
+792 info preinstall debug@3.1.0
+793 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug/package.json
+794 verbose readDependencies using package.json deps
+795 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug/package.json
+796 verbose readDependencies using package.json deps
+797 silly resolved []
+798 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug
+799 info build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug
+800 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules/debug/package.json
+801 verbose linkStuff [ false,
+801 verbose linkStuff   false,
+801 verbose linkStuff   false,
+801 verbose linkStuff   '/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/node_modules' ]
+802 info linkStuff debug@3.1.0
+803 verbose linkBins debug@3.1.0
+804 verbose linkMans debug@3.1.0
+805 verbose rebuildBundles debug@3.1.0
+806 info install debug@3.1.0
+807 info postinstall debug@3.1.0
+808 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client
+809 info build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client
+810 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/socket.io-client/package.json
+811 verbose linkStuff [ false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   '/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules' ]
+812 info linkStuff socket.io-client@2.2.0
+813 verbose linkBins socket.io-client@2.2.0
+814 verbose linkMans socket.io-client@2.2.0
+815 verbose rebuildBundles socket.io-client@2.2.0
+816 verbose rebuildBundles [ 'debug' ]
+817 info install socket.io-client@2.2.0
+818 info postinstall socket.io-client@2.2.0
+819 http 200 https://registry.npmjs.org/ms
+820 silly registry.get cb [ 200,
+820 silly registry.get   { date: 'Sat, 15 Jun 2019 21:26:47 GMT',
+820 silly registry.get     'content-type': 'application/json',
+820 silly registry.get     'content-length': '26050',
+820 silly registry.get     connection: 'keep-alive',
+820 silly registry.get     'cf-cache-status': 'HIT',
+820 silly registry.get     'cache-control': 'max-age=300',
+820 silly registry.get     'cf-ray': '4e779fd32d28d791-MRS',
+820 silly registry.get     'accept-ranges': 'bytes',
+820 silly registry.get     etag: '"e8d38702c7af272d32bafe078769a9fd"',
+820 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+820 silly registry.get     'last-modified': 'Thu, 13 Jun 2019 17:50:42 GMT',
+820 silly registry.get     vary: 'accept-encoding, accept',
+820 silly registry.get     'x-amz-meta-rev': '155-06552a3c5d17ae7da37a1018b5627163',
+820 silly registry.get     server: 'cloudflare' } ]
+821 silly lockFile 2730e296-ms-2-1-1 ms@^2.1.1
+822 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug
+823 info /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug unbuild
+824 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules/debug/package.json
+825 info preuninstall debug@4.1.1
+826 info uninstall debug@4.1.1
+827 verbose false,/home/mohammed/Chatbot-Server/node_modules,/home/mohammed/Chatbot-Server/node_modules/socket.io/node_modules unbuild debug@4.1.1
+828 info postuninstall debug@4.1.1
+829 verbose about to build /home/mohammed/Chatbot-Server/node_modules/socket.io
+830 info /home/mohammed/Chatbot-Server/node_modules/socket.io unbuild
+831 verbose from cache /home/mohammed/Chatbot-Server/node_modules/socket.io/package.json
+832 info preuninstall socket.io@2.2.0
+833 info uninstall socket.io@2.2.0
+834 verbose true,/home/mohammed/Chatbot-Server/node_modules,/home/mohammed/Chatbot-Server/node_modules unbuild socket.io@2.2.0
+835 info postuninstall socket.io@2.2.0
+836 error Error: No compatible version found: ms@'^2.1.1'
+836 error Valid install targets:
+836 error ["0.1.0","0.2.0","0.3.0","0.4.0","0.5.0","0.5.1","0.6.0","0.6.1","0.6.2","0.7.0","0.7.1","0.7.2","0.7.3","1.0.0","2.0.0","2.1.0","2.1.1","2.1.2"]
+836 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:563:10)
+836 error     at /usr/local/lib/node_modules/npm/lib/cache.js:478:10
+836 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+836 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:218:7
+836 error     at Object.oncomplete (fs.js:297:15)
+837 error If you need help, you may report this log at:
+837 error     <http://github.com/isaacs/npm/issues>
+837 error or email it to:
+837 error     <npm-@googlegroups.com>
+838 error System Linux 4.15.0-51-generic
+839 error command "/usr/local/bin/node" "/usr/local/bin/npm" "i" "socket.io"
+840 error cwd /home/mohammed/Chatbot-Server
+841 error node -v v0.8.15
+842 error npm -v 1.1.66
+843 verbose exit [ 1, true ]
